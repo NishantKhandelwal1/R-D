@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './css/new-age.css';
 import Nav from './components/Nav.js';
-import Header from './components/Header.js'
+import Header from './components/Header.js';
+import Callout from './img/callout-image.jpg';
+
 // import Clipboard from 'clipboard';
 // import Copy from './images/copytoclipboard.svg';
 // import 'primer-tooltips/index.scss';
@@ -16,19 +18,57 @@ class App extends React.Component {
     return (
       <div>
 
-        <Nav/>
+        <Nav />
 
-       <Header/>
+        <Header />
 
-        <section className="download bg-primary text-center" id="download">
+        <section className="download text-center" id="download">
           <div className="container">
+            <div className="row ">
+              <h2 style={{ margin: "auto", fontWeight: "bold", fontSize: "42px" }} >Here's How</h2>
+            </div>
             <div className="row">
-              <div className="col-md-8 mx-auto">
-                <h2 className="section-heading">Discover what all the buzz is about!</h2>
-                <p>Our app is available on any mobile device! Download now to get started!</p>
-                <div className="badges">
-                  <a className="badge-link" href="#"><img src="img/google-play-badge.svg" alt="" /></a>
-                  <a className="badge-link" href="#"><img src="img/app-store-badge.svg" alt="" /></a>
+              <div className="col-md-4" style={{ minHeight: "400px" }}>
+                <div style={{ margin: "30px", minHeight: "340px" }}>
+                  <div>
+                    <img src={Callout} alt="callout" className="img-fluid" />
+                  </div>
+                  <div>
+                    <h4 style={{ padding: "5px" }}>Get Fit. Do Good. </h4>
+                    <p style={{ padding: "0 30px 30px 30px", textAlign: "start" }}>
+                      Walk/jog daily to remain fit, and raise money for charity while getting fit. Your workout are
+                      sponsored by our proud corporate partners. Help someone in need, feel great all day :)
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+              <div className="col-md-4" style={{ minHeight: "400px" }}>
+                <div style={{ margin: "30px", minHeight: "340px" }}>
+                  <div>
+                    <img src={Callout} alt="callout" className="img-fluid" />
+                  </div>
+                  <div>
+                    <h4 style={{ padding: "5px" }}>Get Fit. Do Good. </h4>
+                    <p style={{ padding: "0 30px 30px 30px", textAlign: "start" }}>
+                      Walk/jog daily to remain fit, and raise money for charity while getting fit. Your workout are
+                      sponsored by our proud corporate partners. Help someone in need, feel great all day :)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4" style={{ minHeight: "400px" }}>
+                <div style={{ margin: "30px", minHeight: "340px" }}>
+                  <div>
+                    <img src={Callout} alt="callout" className="img-fluid" />
+                  </div>
+                  <div>
+                    <h4 style={{ padding: "5px" }}>Get Fit. Do Good. </h4>
+                    <p style={{ padding: "0 30px 30px 30px", textAlign: "start" }}>
+                      Walk/jog daily to remain fit, and raise money for charity while getting fit. Your workout are
+                      sponsored by our proud corporate partners. Help someone in need, feel great all day :)
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
