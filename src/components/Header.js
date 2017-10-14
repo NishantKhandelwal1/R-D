@@ -1,5 +1,5 @@
 import React from 'react';
-import CauseImage from '../img/causeimage.png';
+import CauseImage from '../img/causeimage.jpg';
 
 
 const Header = () => {
@@ -9,16 +9,16 @@ const Header = () => {
                 <div className="row h-100">
                     <div className="col-lg-5 my-auto">
                         <div className="device-container">
-                            <div className="img-responsive">
-                                <img src={CauseImage} className="img-responsive" alt="cause-image" />
+                            <div>
+                                <img src={CauseImage} className="img-fluid" alt="cause-image" />
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-7 my-auto">
                         <div className="header-content mx-auto">
-                            <h1 style={{ color: "#000000", fontWeight: "bold" }} className="mb-5">
-                                We have converted <br />3,75,443,654 steps into <br />
-                                Rs. 31,00,000 as charity.
+                            <h1 style={{ color: "rgb(59, 59, 59)" }} className="mb-5">
+                                We have converted <br /><span style={{fontFamily:"latoblack",color:"rgb(55, 55, 55)"}}>3,75,443,654</span> steps into <br />
+                                <span style={{color:"#18dfbf",}}>&#8377;31,00,000</span> as charity.
 
                                 <br />
                                 <br />

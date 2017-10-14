@@ -4,6 +4,11 @@ import './css/new-age.css';
 import Nav from './components/Nav.js';
 import Header from './components/Header.js';
 import Callout from './img/callout-image.jpg';
+import HowSection from './components/HowSection.js';
+import CauseImage from './img/causeimage.jpg';
+import Togethercorousel from './components/Togethercorousel.js';
+import LoveUs from './components/LoveUs.js';
+import Team from './components/Team.js';
 
 // import Clipboard from 'clipboard';
 // import Copy from './images/copytoclipboard.svg';
@@ -22,137 +27,19 @@ class App extends React.Component {
 
         <Header />
 
-        <section className="download text-center" id="download">
+        <HowSection />
+
+        <Togethercorousel />
+
+        <LoveUs />
+
+        <Team/>
+
+        <section className="contact" style={{background:"rgba(0, 123, 255, 0.32)"}} id="contact">
           <div className="container">
-            <div className="row ">
-              <h2 style={{ margin: "auto", fontWeight: "bold", fontSize: "42px" }} >Here's How</h2>
-            </div>
-            <div className="row">
-              <div className="col-md-4" style={{ minHeight: "400px" }}>
-                <div style={{ margin: "30px", minHeight: "340px" }}>
-                  <div>
-                    <img src={Callout} alt="callout" className="img-fluid" />
-                  </div>
-                  <div>
-                    <h4 style={{ padding: "5px" }}>Get Fit. Do Good. </h4>
-                    <p style={{ padding: "0 30px 30px 30px", textAlign: "start" }}>
-                      Walk/jog daily to remain fit, and raise money for charity while getting fit. Your workout are
-                      sponsored by our proud corporate partners. Help someone in need, feel great all day :)
-                    </p>
-                  </div>
-                </div>
-
-              </div>
-              <div className="col-md-4" style={{ minHeight: "400px" }}>
-                <div style={{ margin: "30px", minHeight: "340px" }}>
-                  <div>
-                    <img src={Callout} alt="callout" className="img-fluid" />
-                  </div>
-                  <div>
-                    <h4 style={{ padding: "5px" }}>Get Fit. Do Good. </h4>
-                    <p style={{ padding: "0 30px 30px 30px", textAlign: "start" }}>
-                      Walk/jog daily to remain fit, and raise money for charity while getting fit. Your workout are
-                      sponsored by our proud corporate partners. Help someone in need, feel great all day :)
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4" style={{ minHeight: "400px" }}>
-                <div style={{ margin: "30px", minHeight: "340px" }}>
-                  <div>
-                    <img src={Callout} alt="callout" className="img-fluid" />
-                  </div>
-                  <div>
-                    <h4 style={{ padding: "5px" }}>Get Fit. Do Good. </h4>
-                    <p style={{ padding: "0 30px 30px 30px", textAlign: "start" }}>
-                      Walk/jog daily to remain fit, and raise money for charity while getting fit. Your workout are
-                      sponsored by our proud corporate partners. Help someone in need, feel great all day :)
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="features" id="features">
-          <div className="container">
-            <div className="section-heading text-center">
-              <h2>Unlimited Features, Unlimited Fun</h2>
-              <p className="text-muted">Check out what you can do with this app theme!</p>
-              <hr />
-            </div>
-            <div className="row">
-              <div className="col-lg-4 my-auto">
-                <div className="device-container">
-                  <div className="device-mockup iphone6_plus portrait white">
-                    <div className="device">
-                      <div className="screen">
-
-                        <img src="img/demo-screen-1.jpg" className="img-fluid" alt="" />
-                      </div>
-                      <div className="button">
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-8 my-auto">
-                <div className="container-fluid">
-                  <div className="row">
-                    <div className="col-lg-6">
-                      <div className="feature-item">
-                        <i className="icon-screen-smartphone text-primary"></i>
-                        <h3>Device Mockups</h3>
-                        <p className="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="feature-item">
-                        <i className="icon-camera text-primary"></i>
-                        <h3>Flexible Use</h3>
-                        <p className="text-muted">Put an image, video, animation, or anything else in the screen!</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-lg-6">
-                      <div className="feature-item">
-                        <i className="icon-present text-primary"></i>
-                        <h3>Free to Use</h3>
-                        <p className="text-muted">As always, this theme is free to download and use for any purpose!</p>
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="feature-item">
-                        <i className="icon-lock-open text-primary"></i>
-                        <h3>Open Source</h3>
-                        <p className="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="cta">
-          <div className="cta-content">
-            <div className="container">
-              <h2>Stop waiting.<br />Start building.</h2>
-              <a href="#contact" className="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
-            </div>
-          </div>
-          <div className="overlay"></div>
-        </section>
-
-        <section className="contact bg-primary" id="contact">
-          <div className="container">
-            <h2>We
+            <h2>We&nbsp;
           <i className="fa fa-heart"></i>
-              new friends!</h2>
+               &nbsp;our users!</h2>
             <ul className="list-inline list-social">
               <li className="list-inline-item social-twitter">
                 <a href="#">
@@ -175,7 +62,7 @@ class App extends React.Component {
 
         <footer>
           <div className="container">
-            <p>&copy; 2017 Start Bootstrap. All Rights Reserved.</p>
+            <p>&copy; 2017 Impact- Get Fit Do Good. All Rights Reserved.</p>
             <ul className="list-inline">
               <li className="list-inline-item">
                 <a href="#">Privacy</a>
