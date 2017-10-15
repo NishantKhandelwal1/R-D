@@ -153,6 +153,7 @@
      #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
          color: #fdcc52;
      }
+    
  }
  header.masthead {
      position: relative;
@@ -163,7 +164,7 @@
  }
  header.masthead .header-content {
      max-width: 550px;
-     margin-bottom: 100px;
+    
      text-align: center;
  }
  header.masthead .header-content h1 {
@@ -177,6 +178,9 @@
  header.masthead .device-container .screen img {
      border-radius: 3px;
  }
+ .carousel .header-content.mx-auto h1 {
+    font-size: 40px;
+}
  @media (min-width: 992px) {
      header.masthead {
          height: 100vh;
@@ -224,6 +228,7 @@
      section.download h2 {
          font-size: 70px;
      }
+     
  }
  section.features .section-heading {
      margin-bottom: 100px;
@@ -242,6 +247,7 @@
  section.features .device-container {
      margin-bottom: 100px;
  }
+ 
  @media (min-width: 992px) {
      section.features .device-container {
          margin-bottom: 0;
@@ -285,10 +291,49 @@
      margin-bottom: 25px;
      color: white;
  }
+ .slider{
+    padding:40px 107px;
+ }
+
+ .team-member{
+     padding: 40px;
+ }
+ .member{
+     padding: 20px
+ }
+ .how-paragraph h4{
+text-align: left;
+padding-bottom: 15px
+ }
+
  @media (min-width: 768px) {
      section.cta .cta-content h2 {
          font-size: 80px;
      }
+     
+ }
+ @media (max-width:768px){
+    header.masthead .header-content h1 {
+        font-size: 24px;
+    }
+    .carousel .header-content.mx-auto h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .slider{
+        padding:40px 20px;
+     }
+     .team-member{
+        padding: 0px;
+        text-align: center;
+    }
+    .member{
+        padding: 0px
+    }
+    .how-paragraph h4{
+        text-align: center;
+     
+         }
  }
  section.cta .overlay {
      position: absolute;
@@ -338,6 +383,7 @@
  section.contact ul.list-social li.social-google-plus a:hover {
      background-color: #d73925;
  }
+
  footer {
      padding: 25px 0;
      text-align: center;

@@ -5,13 +5,13 @@ import { Carousel, CarouselItem } from 'react-bootstrap/lib/';
 
 const Corousel1 = () => {
   return (
-    <div className="row h-100">
+    <div className="row h-100 slider" >
 
-      <div className="col-md-7 my-auto" style={{ paddingLeft: "150px" }}>
+      <div className="col-md-7 my-auto carousel" >
         <div className="header-content mx-auto">
-          <h1 style={{ fontSize: "40px", color: "rgb(59, 59, 59)" }} className="mb-5">
+          <h1 className="mb-5">
             Empowered
-                    <br /><span style={{ color: "#18dfbf" }}>50 women entrepreneur</span>
+                    <br /><span style={{ color: "#18dfbf" }}>50&nbsp;women&nbsp;entrepreneur</span>
             <br /> in slums of Mumbai.
 
                     </h1>
@@ -20,9 +20,9 @@ const Corousel1 = () => {
           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
         </div>
       </div>
-      <div className="col-md-5 my-auto" style={{ paddingRight: "100px" }}>
+      <div className="col-md-5 my-auto" >
         <div className="device-container">
-          <div className="img-responsive">
+          <div className="img-fluid">
             <img src={CauseImage} className="img-fluid" alt="cause-image" />
           </div>
         </div>

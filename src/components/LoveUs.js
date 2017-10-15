@@ -17,7 +17,7 @@ const LoveUs = () => {
                     <img src={CEO} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto"}} alt="cause-image" />
                     </div>
                     <div className="row">
-                    <h4 style={{margin:"auto",textTransform:"uppercase"}}>I couldn't have asked for more than this</h4>
+                    <h4 style={{margin:"auto",textTransform:"uppercase",textAlign:"center"}}>I couldn't have asked for more than this</h4>
                     
                     </div>
                     <hr style={{borderWidth: "2px",borderColor: "rgba(52, 58, 64, 0.54)"}}/>
