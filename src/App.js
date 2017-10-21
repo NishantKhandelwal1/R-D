@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './img/companylogo.png';
 import './css/new-age.css';
 import Nav from './components/Nav.js';
 import Header from './components/Header.js';
@@ -42,18 +42,18 @@ class App extends React.Component {
                &nbsp;our users!</h2>
             <ul className="list-inline list-social">
               <li className="list-inline-item social-twitter">
-                <a href="#">
+                <a href="https://twitter.com/ImpactRun01" target="_blank">
                   <i className="fa fa-twitter"></i>
                 </a>
               </li>
-              <li className="list-inline-item social-facebook">
-                <a href="#">
+              <li className="list-inline-item social-facebook" >
+                <a href="https://www.facebook.com/Impactrun/" target="_blank">
                   <i className="fa fa-facebook"></i>
                 </a>
               </li>
               <li className="list-inline-item social-google-plus">
-                <a href="#">
-                  <i className="fa fa-google-plus"></i>
+                <a href="https://www.instagram.com/impact_run" target="_blank">
+                  <i className="fa fa-instagram"></i>
                 </a>
               </li>
             </ul>

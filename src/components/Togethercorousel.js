@@ -1,5 +1,8 @@
 import React from 'react';
 import CauseImage from '../img/causeimage.jpg';
+import Awwa from '../img/heroes-awwa.jpg';
+import Entrepreneur from '../img/enterpreneur.jpg';
+import Farmer from '../img/farmers.jpg';
 import { Carousel, CarouselItem } from 'react-bootstrap/lib/';
 
 
@@ -11,23 +14,96 @@ const Corousel1 = () => {
         <div className="header-content mx-auto">
           <h1 className="mb-5">
             Empowered
-                    <br /><span style={{ color: "#18dfbf" }}>50&nbsp;women&nbsp;entrepreneur</span>
+            <br /><span style={{ color: "#18dfbf" }}>50&nbsp;women&nbsp;entrepreneur</span>
             <br /> in slums of Mumbai.
-
-                    </h1>
-
-
+          </h1>
           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
         </div>
       </div>
       <div className="col-md-5 my-auto" >
         <div className="device-container">
           <div className="img-fluid">
-            <img src={CauseImage} className="img-fluid" alt="cause-image" />
+            <img src={Entrepreneur} className="img-fluid slider-cause" alt="cause-image" />
           </div>
         </div>
       </div>
 
+    </div>
+  )
+}
+
+const Corousel2 = () => {
+  return (
+    <div className="row h-100 slider" >
+
+      <div className="col-md-7 my-auto carousel" >
+        <div className="header-content mx-auto">
+          <h1 className="mb-5">
+            Treated
+            <br /><span style={{ color: "#18dfbf" }}>10&nbsp;babies&nbsp;with&nbsp;congenital</span>
+            <br /> heart defects.
+            </h1>
+          {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
+        </div>
+      </div>
+      <div className="col-md-5 my-auto" >
+        <div className="device-container">
+          <div className="img-fluid">
+            <img src={CauseImage} className="img-fluid slider-cause" alt="cause-image" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  )
+}
+
+const Corousel3 = () => {
+  return (
+    <div className="row h-100 slider" >
+      <div className="col-md-7 my-auto carousel" >
+        <div className="header-content mx-auto">
+          <h1 className="mb-5">
+            Insured
+            <br /><span style={{ color: "#18dfbf" }}>125&nbsp;drought&nbsp;hit&nbsp;farmer's </span>
+            <br /> families.
+            </h1>
+          {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
+        </div>
+      </div>
+      <div className="col-md-5 my-auto" >
+        <div className="device-container">
+          <div className="img-fluid">
+            <img src={Farmer} className="img-fluid slider-cause" alt="cause-image" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  )
+}
+
+const Corousel4 = () => {
+  return (
+    <div className="row h-100 slider" >
+
+      <div className="col-md-7 my-auto carousel" >
+        <div className="header-content mx-auto">
+          <h1 className="mb-5">
+            Provided for
+            <br /><span style={{ color: "#18dfbf" }}>welfare&nbsp;of&nbsp;70&nbsp;Indian</span>
+            <br /> Army widows.
+          </h1>
+          {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
+        </div>
+      </div>
+      <div className="col-md-5 my-auto" >
+        <div className="device-container">
+          <div className="img-fluid">
+            <img src={Awwa} className="img-fluid slider-cause" alt="cause-image" />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
@@ -49,11 +125,14 @@ const Togethercorousel = () => {
             <CarouselItem>
               <Corousel1 />
             </CarouselItem>
+            {/* <CarouselItem>
+              <Corousel2 />
+            </CarouselItem> */}
             <CarouselItem>
-              <Corousel1 />
+              <Corousel3 />
             </CarouselItem>
             <CarouselItem>
-              <Corousel1 />
+              <Corousel4 />
             </CarouselItem>
           </Carousel>
           {/* <Carousel>
