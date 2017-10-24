@@ -17,17 +17,25 @@ const Nav = () => {
              <i className="fa fa-bars"></i>
         </button>
         <div className="collapse navbar-collapse" id="navbarResponsive">
-          <ul className="navbar-nav ml-auto" style={{marginRight: "70px"}}>
-            <li className="nav-item" style={{display:"-webkit-box",marginRight:"20px"}}>
-              <img src={CompanyLogo} alt="download" style={{width:"50px"}} />
-              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" target="_blank" href="http://onelink.to/impactrun">
-                <span style={{ color: "#06c9fd",fontFamily:"latobold" }}>Downl</span><span style={{ color: "#39f764",fontFamily:"latobold" }}>oad App</span>
+          <ul className="navbar-nav ml-auto" style={{ marginRight: "70px" }}>
+            <li className="nav-item" style={{ display: "-webkit-box", marginRight: "20px" }}>
+              <img src={CompanyLogo} alt="download" style={{ width: "50px" }} />
+              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger"  style={{marginRight:"5px"}}>
+                {/* <span style={{ color: "#06c9fd",fontFamily:"latobold" }}>Downl</span><span style={{ color: "#39f764",fontFamily:"latobold" }}>oad App</span> */}
+                <span className="grad">Download App</span>
+              </a>
+              <a className="nav-link js-scroll-trigger" href="https://goo.gl/WM27CA" target="_blank" style={{marginRight:"5px"}}>
+                <i className="fa fa-android" aria-hidden="true" style={{ color: "black" }}></i>
+              </a>
+              <a className="nav-link js-scroll-trigger" target="_blank" href="https://goo.gl/qJPjzb">
+                <i className="fa fa-apple" aria-hidden="true" style={{ color: "black" }}></i>
               </a>
             </li>
-            <li className="nav-item" style={{marginRight:"20px"}}>
-              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#download">Who are we?</a>
+
+            <li className="nav-item" style={{ marginRight: "20px" }}>
+              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#download">How?</a>
             </li>
-            <li className="nav-item" style={{marginRight:"20px"}}>
+            <li className="nav-item" style={{ marginRight: "20px" }}>
               <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
             <li className="nav-item" >

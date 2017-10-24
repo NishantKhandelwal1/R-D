@@ -1,7 +1,7 @@
 import React from 'react';
-import Callout from '../img/callout-image.jpg';
-import Callout2 from '../img/callout2.png';
-import Callout3 from '../img/corporate-image.png';
+import Callout from '../img/callout-image.png';
+import Callout2 from '../img/callout2.jpg';
+import Callout3 from '../img/corporate-image.jpg';
 
 
 const HowSection = ()=> {

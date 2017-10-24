@@ -1,5 +1,5 @@
 import React from 'react';
-import CauseImage from '../img/causeimage.jpg';
+// import CauseImage from '../img/causeimage.jpg';
 import Awwa from '../img/heroes-awwa.jpg';
 import Entrepreneur from '../img/enterpreneur.jpg';
 import Farmer from '../img/farmers.jpg';
@@ -14,8 +14,8 @@ const Corousel1 = () => {
         <div className="header-content mx-auto">
           <h1 className="mb-5">
             Empowered
-            <br /><span style={{ color: "#18dfbf" }}>50&nbsp;women&nbsp;entrepreneur</span>
-            <br /> in slums of Mumbai.
+            <br /><span style={{ color: "#18dfbf" }}>100&nbsp;women&nbsp;entrepreneurs</span>
+            <br /> in slums of Mumbai
           </h1>
           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
         </div>
@@ -32,31 +32,31 @@ const Corousel1 = () => {
   )
 }
 
-const Corousel2 = () => {
-  return (
-    <div className="row h-100 slider" >
+// const Corousel2 = () => {
+//   return (
+//     <div className="row h-100 slider" >
 
-      <div className="col-md-7 my-auto carousel" >
-        <div className="header-content mx-auto">
-          <h1 className="mb-5">
-            Treated
-            <br /><span style={{ color: "#18dfbf" }}>10&nbsp;babies&nbsp;with&nbsp;congenital</span>
-            <br /> heart defects.
-            </h1>
-          {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
-        </div>
-      </div>
-      <div className="col-md-5 my-auto" >
-        <div className="device-container">
-          <div className="img-fluid">
-            <img src={CauseImage} className="img-fluid slider-cause" alt="cause-image" />
-          </div>
-        </div>
-      </div>
+//       <div className="col-md-7 my-auto carousel" >
+//         <div className="header-content mx-auto">
+//           <h1 className="mb-5">
+//             Treated
+//             <br /><span style={{ color: "#18dfbf" }}>10&nbsp;babies&nbsp;with&nbsp;congenital</span>
+//             <br /> heart defects
+//             </h1>
+//           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
+//         </div>
+//       </div>
+//       <div className="col-md-5 my-auto" >
+//         <div className="device-container">
+//           <div className="img-fluid">
+//             <img src={CauseImage} className="img-fluid slider-cause" alt="cause-image" />
+//           </div>
+//         </div>
+//       </div>
 
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
 const Corousel3 = () => {
   return (
@@ -64,9 +64,9 @@ const Corousel3 = () => {
       <div className="col-md-7 my-auto carousel" >
         <div className="header-content mx-auto">
           <h1 className="mb-5">
-            Insured
-            <br /><span style={{ color: "#18dfbf" }}>125&nbsp;drought&nbsp;hit&nbsp;farmer's </span>
-            <br /> families.
+            Helped
+            <br /><span style={{ color: "#18dfbf" }}>300&nbsp;drought&nbsp;hit </span>
+            <br /> farmer families
             </h1>
           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
         </div>
@@ -90,9 +90,9 @@ const Corousel4 = () => {
       <div className="col-md-7 my-auto carousel" >
         <div className="header-content mx-auto">
           <h1 className="mb-5">
-            Provided for
-            <br /><span style={{ color: "#18dfbf" }}>welfare&nbsp;of&nbsp;70&nbsp;Indian</span>
-            <br /> Army widows.
+            Supported
+            <br /><span style={{ color: "#18dfbf" }}>100 families of&nbsp;</span>
+            <br />Indian army martyrs
           </h1>
           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
         </div>
