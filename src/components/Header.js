@@ -10,7 +10,7 @@ const Header = ({ Impact }) => {
                 <div className="row h-100 slider ">
                     <div className="col-sm-7 my-auto">
                         <div className="header-content mx-auto">
-                            <h1 style={{ color: "rgb(59, 59, 59)", marginTop: "60px" }} className="mb-5">
+                            <h1 style={{ color: "rgb(59, 59, 59)"}} className="mb-5 head">
                                 We have converted <br /><span style={{ fontFamily: "latoblack", color: "rgb(55, 55, 55)", transition: "1.8s ease-out" }}>
                                     <AnimatedNumber component="text" value={Impact * 125}
                                         

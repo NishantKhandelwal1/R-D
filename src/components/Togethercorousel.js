@@ -115,7 +115,7 @@ const Togethercorousel = () => {
         <div className="container">
           <div className="row">
 
-            <h3 style={{ margin: "auto", padding: "20px", fontSize: "30px" }}>
+            <h3 style={{ margin: "auto", padding: "20px",textAlign:"center", fontSize: "30px" }}>
               Together we have
         </h3>
 

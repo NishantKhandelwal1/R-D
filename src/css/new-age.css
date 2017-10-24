@@ -52,6 +52,9 @@
  section h2 {
      font-size: 50px;
  }
+ .head{
+    margin-top: 60px;
+ }
  #mainNav {
      border-color: rgba(34, 34, 34, 0.05);
      background-color: white;
@@ -379,6 +382,9 @@ padding-bottom: 15px
         padding-top: 80px;
         padding-bottom: 50px;
     }
+    .head{
+        margin-top: 5px;
+     }
  }
  section.cta .overlay {
      position: absolute;
