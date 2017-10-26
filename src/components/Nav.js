@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Logo from '../img/logo1.jpg';
+import Logo from '../img/logo1.png';
 import CompanyLogo from '../img/companylogo.png';
 
 const Nav = () => {
