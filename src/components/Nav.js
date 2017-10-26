@@ -22,7 +22,7 @@ const Nav = () => {
               <img src={CompanyLogo} alt="download" style={{ width: "50px" }} />
               <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger"  style={{marginRight:"5px"}}>
                 {/* <span style={{ color: "#06c9fd",fontFamily:"latobold" }}>Downl</span><span style={{ color: "#39f764",fontFamily:"latobold" }}>oad App</span> */}
-                <span className="grad">Download App</span>
+                <span className="grad" style={{fontWeight:"bold"}}>Download App</span>
               </a>
               <a className="nav-link js-scroll-trigger" href="https://goo.gl/WM27CA" target="_blank" style={{marginRight:"5px"}}>
                 <i className="fa fa-android" aria-hidden="true" style={{ color: "black" }}></i>

@@ -10,19 +10,19 @@ const Corousel1 = () => {
   return (
     <div className="row h-100 slider" >
 
-      <div className="col-md-7 my-auto carousel" >
+      <div className="col-sm-7 my-auto carousel" >
         <div className="header-content mx-auto">
           <h1 className="mb-5">
             Empowered
-            <br /><span style={{ color: "#18dfbf" }}>100&nbsp;women&nbsp;entrepreneurs</span>
+            <br /><span style={{ color: "#18dfbf" }}>70&nbsp;women&nbsp;entrepreneurs</span>
             <br /> in slums of Mumbai
           </h1>
           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
         </div>
       </div>
-      <div className="col-md-5 my-auto" >
+      <div className="col-sm-5 my-auto" >
         <div className="device-container">
-          <div className="img-fluid">
+          <div className="img-fluid centerBlock">
             <img src={Entrepreneur} className="img-fluid slider-cause" alt="cause-image" />
           </div>
         </div>
@@ -36,7 +36,7 @@ const Corousel1 = () => {
 //   return (
 //     <div className="row h-100 slider" >
 
-//       <div className="col-md-7 my-auto carousel" >
+//       <div className="col-sm-7 my-auto carousel" >
 //         <div className="header-content mx-auto">
 //           <h1 className="mb-5">
 //             Treated
@@ -46,7 +46,7 @@ const Corousel1 = () => {
 //           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
 //         </div>
 //       </div>
-//       <div className="col-md-5 my-auto" >
+//       <div className="col-sm-5 my-auto" >
 //         <div className="device-container">
 //           <div className="img-fluid">
 //             <img src={CauseImage} className="img-fluid slider-cause" alt="cause-image" />
@@ -61,7 +61,7 @@ const Corousel1 = () => {
 const Corousel3 = () => {
   return (
     <div className="row h-100 slider" >
-      <div className="col-md-7 my-auto carousel" >
+      <div className="col-sm-7 my-auto carousel" >
         <div className="header-content mx-auto">
           <h1 className="mb-5">
             Helped
@@ -71,9 +71,9 @@ const Corousel3 = () => {
           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
         </div>
       </div>
-      <div className="col-md-5 my-auto" >
+      <div className="col-sm-5 my-auto" >
         <div className="device-container">
-          <div className="img-fluid">
+          <div className="img-fluid centerBlock">
             <img src={Farmer} className="img-fluid slider-cause" alt="cause-image" />
           </div>
         </div>
@@ -87,7 +87,7 @@ const Corousel4 = () => {
   return (
     <div className="row h-100 slider" >
 
-      <div className="col-md-7 my-auto carousel" >
+      <div className="col-sm-7 my-auto carousel" >
         <div className="header-content mx-auto">
           <h1 className="mb-5">
             Supported
@@ -97,9 +97,9 @@ const Corousel4 = () => {
           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
         </div>
       </div>
-      <div className="col-md-5 my-auto" >
+      <div className="col-sm-5 my-auto" >
         <div className="device-container">
-          <div className="img-fluid">
+          <div className="img-fluid centerBlock">
             <img src={Awwa} className="img-fluid slider-cause" alt="cause-image" />
           </div>
         </div>
@@ -115,7 +115,7 @@ const Togethercorousel = () => {
         <div className="container">
           <div className="row">
 
-            <h3 style={{ margin: "auto", padding: "20px",textAlign:"center", fontSize: "30px" }}>
+            <h3 style={{ margin: "auto", padding: "20px", textAlign: "center", fontSize: "30px" }}>
               Together we have
         </h3>
 

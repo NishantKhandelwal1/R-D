@@ -1,6 +1,6 @@
 import React from "react";
 
-import Advitiya from '../img/AdvitiyaSharma.jpg';
+import Advitiya from '../img/AdvitiyaSharma1.jpg';
 
 const LoveUs = () => {
     return (
@@ -17,7 +17,7 @@ const LoveUs = () => {
                     <img src={Advitiya} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto"}} alt="cause-image" />
                     </div>
                     <div className="row">
-                    <h4 style={{margin:"auto",textAlign:"center"}}> I use Impact everyday to and from my visit to the temple. It feels amazing to tough God's feet after doing God's work</h4>
+                    <h4 style={{margin:"auto",textAlign:"center"}}> I use Impact everyday to and from my visit to the temple. It feels amazing to touch God's feet after doing God's work</h4>
                     
                     </div>
                     <hr style={{borderWidth: "2px",borderColor: "rgba(52, 58, 64, 0.54)"}}/>

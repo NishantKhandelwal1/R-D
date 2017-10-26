@@ -140,7 +140,10 @@
     font-size: 42px;
     padding-bottom:30px;
  }
-
+ .centerBlock {
+    display: table;
+    margin: auto;
+  }
 
 
 

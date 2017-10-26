@@ -40,7 +40,7 @@ const Header = ({ Impact }) => {
                     </div>
                     <div className="col-sm-5 my-auto">
                         <div className="device-container">
-                            <div>
+                            <div className="centerBlock">
 
                                 <img src={CauseImage} className="img-fluid" alt="cause-image" />
 
