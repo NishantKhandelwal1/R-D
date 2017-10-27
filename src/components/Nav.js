@@ -20,23 +20,23 @@ const Nav = () => {
           <ul className="navbar-nav ml-auto" style={{ marginRight: "70px" }}>
             <li className="nav-item" style={{ display: "-webkit-box", marginRight: "20px" }}>
               <img src={CompanyLogo} alt="download" style={{ width: "50px" }} />
-              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger"  style={{marginRight:"5px"}}>
-                {/* <span style={{ color: "#06c9fd",fontFamily:"latobold" }}>Downl</span><span style={{ color: "#39f764",fontFamily:"latobold" }}>oad App</span> */}
+              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="http://onelink.to/impact" style={{marginRight:"5px"}}>
+               
                 <span className="grad" style={{fontWeight:"bold"}}>Download App</span>
               </a>
-              <a className="nav-link js-scroll-trigger" href="https://goo.gl/WM27CA" target="_blank" style={{marginRight:"5px"}}>
+              {/* <a className="nav-link js-scroll-trigger" href="https://goo.gl/WM27CA" target="_blank" style={{marginRight:"5px"}}>
                 <i className="fa fa-android" aria-hidden="true" style={{ color: "black" }}></i>
               </a>
               <a className="nav-link js-scroll-trigger" target="_blank" href="https://goo.gl/qJPjzb">
                 <i className="fa fa-apple" aria-hidden="true" style={{ color: "black" }}></i>
-              </a>
+              </a> */}
             </li>
 
             <li className="nav-item" style={{ marginRight: "20px" }}>
-              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#download">How?</a>
+              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#download">How It works?</a>
             </li>
             <li className="nav-item" style={{ marginRight: "20px" }}>
-              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#team">Team</a>
+              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#team">Our Team</a>
             </li>
             <li className="nav-item" >
               <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#contact">Contact Us</a>

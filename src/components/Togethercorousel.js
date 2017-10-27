@@ -14,7 +14,7 @@ const Corousel1 = () => {
         <div className="header-content mx-auto">
           <h1 className="mb-5">
             Empowered
-            <br /><span style={{ color: "#18dfbf" }}>70&nbsp;women&nbsp;entrepreneurs</span>
+            <br /><span style={{ color: "#18dfbf" }}>100&nbsp;women entrepreneurs</span>
             <br /> in slums of Mumbai
           </h1>
           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
@@ -91,7 +91,7 @@ const Corousel4 = () => {
         <div className="header-content mx-auto">
           <h1 className="mb-5">
             Supported
-            <br /><span style={{ color: "#18dfbf" }}>100 families of&nbsp;</span>
+            <br /><span style={{ color: "#18dfbf" }}>70 families of&nbsp;</span>
             <br />Indian army martyrs
           </h1>
           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}

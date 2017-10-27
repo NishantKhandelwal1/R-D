@@ -24,10 +24,10 @@ const Team = () => {
                         
                         <div className="col-sm-6 member">
 
-                            <div className="col-sm-4">
+                            <div className="col-sm-12 col-md-4">
                                 <img src={Ishan} alt="team" className="img-circle team-image"  />
                             </div>
-                            <div className="col-sm-8">
+                            <div className="col-sm-12 col-md-8">
                                 <h4 style={{ textTransform: "uppercase" }}>Ishan Nadkarni</h4>
                                 <span className="position grad">@nadu Business</span>
                                 <br />
@@ -39,10 +39,10 @@ const Team = () => {
                         </div>
                     </div>
                         <div className="col-sm-6 member">
-                            <div className="col-sm-4">
+                            <div className="col-sm-12 col-md-4">
                                 <img src={Nikhil} alt="team" className="img-circle team-image"  />
                             </div>
-                            <div className="col-sm-8">
+                            <div className="col-sm-12 col-md-8">
                                 <h4 style={{ textTransform: "uppercase" }}>Nikhil Khandelwal</h4>
                                 <span className="position grad">@khandu Product</span>
                                 <br />
@@ -130,7 +130,7 @@ const Team = () => {
                                 <img src={Kanak} alt="team" className="img-circle team-image"  />
                             </div>
                             <div className="col-sm-8">
-                                <h4 style={{ textTransform: "uppercase" }}>Kanak Agarwal</h4>
+                                <h4 style={{ textTransform: "uppercase" }}>Kanak Agrawal</h4>
                                 <span className="position grad">@kay Growth</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
@@ -148,7 +148,7 @@ const Team = () => {
                                 <span className="position grad">@noddy Product</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                Akash is a 10th standard graduate, a self learned coder and a guitarist. He is our in-house inspiration and has shown the maximum growth amongst all of us in the last two years. At Impact, he handles frontend and iOS development.
+                                Akash is a self learned coder and a guitarist. He is our in-house inspiration and has shown the maximum growth amongst all of us in the last two years. At Impact, he handles frontend and iOS development and directing the school we opened in Uttarkashi.
                                 </p>
 
                             </div>

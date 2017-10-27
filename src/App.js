@@ -21,9 +21,19 @@ class App extends React.Component {
     super(props)
     this.state = {
       Total_Impact: 100000,
-      loading: true
+      loading: true,
+      index: 0,
+      direction: null
     }
+    this.handleSelect= this.handleSelect.bind(this);
   }
+
+  handleSelect(selectedIndex, e){
+    this.setState({
+      index: selectedIndex,
+      direction: e.direction
+    });
+}
 
   componentWillMount() {
     let impact;
@@ -55,9 +65,10 @@ class App extends React.Component {
   
           <HowSection />
   
+          
           <Togethercorousel />
-  
-          <LoveUs />
+          {/* <LoveUs index={this.state.index} direction={this.state.direction} handleSelect={this.handleSelect}/> */}
+          {/* <LoveUs /> */}
   
           <Team />
   
