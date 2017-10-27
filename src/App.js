@@ -79,7 +79,7 @@ class App extends React.Component {
                 &nbsp;by your friends at Impact!</h2>
               <ul className="list-inline list-social">
               <li className="list-inline-item social-facebook" >
-                  <a href="https://www.facebook.com/Impactrun/" target="_blank">
+                  <a href="https://www.facebook.com/GetFitDoGood/" target="_blank">
                     <i className="fa fa-facebook"></i>
                   </a>
                 </li>
@@ -90,7 +90,7 @@ class App extends React.Component {
                 </li>
                
                 <li className="list-inline-item social-google-plus">
-                  <a href="https://www.instagram.com/impact_run" target="_blank">
+                  <a href="https://www.instagram.com/impact_kindness_app/" target="_blank">
                     <i className="fa fa-instagram"></i>
                   </a>
                 </li>
