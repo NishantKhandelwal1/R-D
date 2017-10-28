@@ -1,5 +1,5 @@
 import React from 'react';
-import CauseImage from '../img/dandi_card_f.png';
+import CauseImage from '../img/dandi_card.png';
 import AnimatedNumber from 'react-animated-number';
 
 
