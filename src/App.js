@@ -105,12 +105,12 @@ class App extends React.Component {
                 <li className="list-inline-item">
                   <a href="/privacy.html" target="_blank">Privacy</a>
                 </li>
-                <li className="list-inline-item">
+                {/* <li className="list-inline-item">
                   <a href="javascript:void(0)">Terms</a>
                 </li>
                 <li className="list-inline-item">
                   <a href="javascript:void(0)">FAQ</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </footer>

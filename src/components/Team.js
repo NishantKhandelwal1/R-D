@@ -32,7 +32,8 @@ const Team = () => {
                                 <span className="position grad">@nadu Business</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                Ishan is a 2013 IIT Bombay graduate passionate about fitness and social change. Before starting ‘Impact’ up, he did a brief stint at Opera Solutions and a longer one at  Housing.com.  At Impact, he looks after business, investments and customer satisfaction.
+                                A 2013 IIT Bombay graduate, Ishan dreams of making the world fitter and kinder. With a 3-year experience of scaling business products, operations and digital marketing, he is the brain of Impact managing business, investments and customer excellence.
+                                <br/>Ex- Opera Solutions, Housing.com
                                 </p>
 
 
@@ -47,7 +48,8 @@ const Team = () => {
                                 <span className="position grad">@khandu Product</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                Nikhil is a 2013 IIT Bombay graduate, a design guru and a constant problem seeker & solver. Before starting ‘Impact’ up, he worked at Opera Solutions and Bewakoof.com.  At Impact, he looks after design, UEx and customer satisfaction.
+                                A 2013 IIT Bombay graduate, Nikhil is a design guru and a constant problem solver. With 3 years of experience at heading product teams, he is the heart of Impact handling design, UEx, product strategies and customer excellence.
+                                <br/>Ex- Opera Solutions, Bewakoof.com
                                 </p>
 
                             </div>
@@ -64,7 +66,8 @@ const Team = () => {
                                 <span className="position grad">@noggles Product</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                Piyush graduated from IIT Bombay in 2012. A coder at heart, he worked in Gravitas building backend architecture for several of their clients . He is the backbone of Impact and looks after backend, dev-ops and iOS.
+                                A 2012 IIT Bombay graduate, Piyush is a tech geek and a passionate guitarist. With a 3-year experience of building back-end architecture, he is the backbone of Impact looking after its back-end, dev-ops and iOS.
+                                <br/>Ex- Gravitas
                                 </p>
 
                             </div>
@@ -78,7 +81,8 @@ const Team = () => {
                                 <span className="position grad">@prof Product</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                Ankit is a 2011 Computer Science graduate from IIT Delhi and is passionate about AI and India’s social sector. Prior to ‘Impact’ he has made several android apps at Housing.com and Jumbotail.com. He is Impact’s Tech Lead and  has build the android app and all our awesome in-house algorithms.
+                                A 2011 IIT Delhi graduate, Ankit is passionate about AI and India's social sector. With a 6 year rich tech experience in Android and machine learning, he is leading the tech at Impact along with building our Andorid app and in-house algorithms.
+                                <br/>Ex- Jumbotail.com, Housing.com
                                 </p>
 
                             </div>
@@ -92,7 +96,8 @@ const Team = () => {
                                 <span className="position grad">@dhope Product</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                Abhijit is a 2012 IIT Bombay graduate and is a code, anime and animal lover. Before joining ‘Impact’ he has worked as a full stack developer at Aasaan Jobs and run a profitable cafe in Dharamshala. At Impact,  he takes care of analytics, dashboards and customer satisfaction.
+                                A 2012 IIT Bombay graduate, Abhijeet is our in-house Learning Machine. From martial arts to cooking, from farming to robotics, you think it, he knows it. With a 3-year programming and 2-year traveling experience, which includes running a cafe in Dharamshala, Abhijeet makes everyone's life easier by streamlining and automating processes at Impact.
+                                <br/>Ex- Oracle, Aasaanjobs
                                 </p>
 
                             </div>
@@ -106,7 +111,8 @@ const Team = () => {
                                 <span className="position grad">@baddy Business</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                Gaurav is a 2012 IIT Bombay graduate and is most passionate about solving hunger for the bottom billion. Before ‘Impact’ he worked at Housing.com, Kaivalya Education Foundation and is an active volunteer with lots of nonprofits. He looks after business and partnerships at Impact..
+                                A 2012 IIT Bombay graduate, Gaurav cares most about uplifting the bottom billion and has volunteered in several non-profits. He uses his 5-year experience of managing sales and business strategies in start-ups, to look after business and partnerships at Impact.
+                                <br/>Ex- Kaivalya Education Foundation, Housing.com
                                 </p>
 
                             </div>
@@ -120,7 +126,8 @@ const Team = () => {
                                 <span className="position grad">@nikki Product</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                Nishant is a Computer science graduate from Vedant College Kota and the hardest worker among us all. Before joining Impact, Nishant worked in Tata Communications as a technology associate. At Impact, he works on frontend development and customer satisfaction.
+                                A 2013 Vedant college Kota graduate, Nishant spends most of his time either coding or acquiring new programming skills. With 2 years of experience as a technology associate, Nishant works on front-end development and customer satisfaction at Impact.
+                                <br/>Ex- Tata Communications
                                 </p>
 
                             </div>
@@ -134,7 +141,8 @@ const Team = () => {
                                 <span className="position grad">@kay Growth</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                Kanak is a 2015 Economics graduate from IIT Kanpur, a phenomenal writer and a travel blogger. Before joining ‘Impact’ she has worked McKinsey & Co. as a business analyst and consultant. At Impact, she handles content, social media and customer satisfaction.
+                                A 2015 IIT Kanpur graduate, Kanak is a traveller at heart. Writing is her newly found passion after a stint with analytics for 2 years. The mind behind Impact's words, Kanak manages content and social media at Impact along with business communications.
+                                <br/>Ex- Mckinsey & Company
                                 </p>
 
                             </div>
@@ -148,7 +156,7 @@ const Team = () => {
                                 <span className="position grad">@noddy Product</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                Akash is a self learned coder and a guitarist. He is our in-house inspiration and has shown the maximum growth amongst all of us in the last two years. At Impact, he handles frontend and iOS development and directing the school we opened in Uttarkashi.
+                                A 10th standard pass-out, Akash hails from a rural background and aims to improve the quality of education and cleanliness in his village. A self learned coder and guitarist, Akash works on front-end and iOS development at Impact.
                                 </p>
 
                             </div>

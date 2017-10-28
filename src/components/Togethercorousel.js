@@ -121,7 +121,7 @@ const Togethercorousel = () => {
 
           </div>
 
-          <Carousel controls={false} nextIcon={""} prevIcon={""}>
+          <Carousel pauseOnHover={false} controls={false} nextIcon={""} prevIcon={""}>
             <CarouselItem>
               <Corousel1 />
             </CarouselItem>
