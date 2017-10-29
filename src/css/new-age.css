@@ -154,6 +154,9 @@
     margin: 0 150px;
     text-align: center;
 }
+.masthead .container .slider {
+    margin-top: 50px;
+}
 
 #section01 a span {
     position: absolute;
@@ -613,6 +616,9 @@
     } */
     .arrow{
         display: none;
+    }
+    .masthead .container .slider {
+        margin-top: 0px;
     }
 }
  /* .btn-outline:hover,

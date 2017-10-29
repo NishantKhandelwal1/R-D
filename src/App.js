@@ -72,7 +72,7 @@ class App extends React.Component {
   
           <Team />
   
-          <section className="contact" style={{ background: "rgba(0, 123, 255, 0.32)" }} id="contact">
+          {/* <section className="contact" style={{ background: "rgba(0, 123, 255, 0.32)" }} id="contact">
             <div className="container">
               <h2>Made with&nbsp;
             <i className="fa fa-heart"></i>
@@ -96,7 +96,7 @@ class App extends React.Component {
                 </li>
               </ul>
             </div>
-          </section>
+          </section> */}
   
           <footer>
             <div className="container">

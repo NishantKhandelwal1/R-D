@@ -1,5 +1,5 @@
 import React from 'react';
-import CauseImage from '../img/dandi_card.png';
+import CauseImage from '../img/dandi_march.jpg';
 import AnimatedNumber from 'react-animated-number';
 
 
@@ -12,7 +12,7 @@ const Header = ({ Impact }) => {
                         <div className="header-content mx-auto">
                             <h1 style={{ color: "rgb(59, 59, 59)" }} className="mb-5 head">
                                 <span style={{ fontFamily: "latoblack", color: "rgb(55, 55, 55)", transition: "1.8s ease-out" }}>
-                                    <AnimatedNumber component="text" value={(Impact * 125)}
+                                    <AnimatedNumber component="text" value={(Impact * 121)}
                                         stepPrecision={0}
                                         duration={800}
                                         formatValue={n => (n).toLocaleString('en')}
@@ -42,7 +42,7 @@ const Header = ({ Impact }) => {
                         <div className="device-container">
                             <div className="centerBlock">
 
-                                <img src={CauseImage} className="img-fluid" alt="cause-image" />
+                                <img src={CauseImage} style={{boxShadow: "0 0 20px 7px #f5f5f5"}} className="img-fluid" alt="cause-image" />
 
 
                             </div>

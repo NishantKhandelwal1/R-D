@@ -38,9 +38,9 @@ const Nav = () => {
             <li className="nav-item" style={{ marginRight: "20px" }}>
               <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#team">Our Team</a>
             </li>
-            <li className="nav-item" >
+            {/* <li className="nav-item" >
               <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
