@@ -17,13 +17,9 @@ const Header = ({ Impact }) => {
                                         duration={800}
                                         formatValue={n => (n).toLocaleString('en')}
                                     />
-
-
-
                                 </span> steps <br /> have raised
                                 <span style={{ color: "#18dfbf", }}> <br />&#8377;
                                 <AnimatedNumber component="text" value={Impact}
-
                                         stepPrecision={0}
                                         duration={800}
                                         formatValue={n => (n).toLocaleString('en')}
@@ -42,7 +38,7 @@ const Header = ({ Impact }) => {
                         <div className="device-container">
                             <div className="centerBlock">
 
-                                <img src={CauseImage} style={{boxShadow: "0 0 20px 7px #f5f5f5"}} className="img-fluid" alt="cause-image" />
+                                <img src={CauseImage} style={{ boxShadow: "0 0 20px 7px #f5f5f5" }} className="img-fluid" alt="cause-image" />
 
 
                             </div>

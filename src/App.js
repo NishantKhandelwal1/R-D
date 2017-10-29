@@ -9,6 +9,7 @@ import { BounceLoader} from 'react-spinners';
 import Togethercorousel from './components/Togethercorousel.js';
 import LoveUs from './components/LoveUs.js';
 import Team from './components/Team.js';
+import Sponsor from './components/sponsor.js'
 
 // import Clipboard from 'clipboard';
 // import Copy from './images/copytoclipboard.svg';
@@ -65,9 +66,9 @@ class App extends React.Component {
   
           <HowSection />
   
-          
+          <Sponsor/>
           <Togethercorousel />
-          {/* <LoveUs index={this.state.index} direction={this.state.direction} handleSelect={this.handleSelect}/> */}
+          <LoveUs index={this.state.index} direction={this.state.direction} handleSelect={this.handleSelect}/>
           {/* <LoveUs /> */}
   
           <Team />
