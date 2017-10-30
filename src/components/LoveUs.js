@@ -53,8 +53,8 @@ const LoveUs = ({ index, direction, handleSelect }) => {
                         </div>
                     </Carousel.Item>
                     
-                     {/* <Carousel.Item>
-                        <div style={{ maxHeight: "350px" }}>
+                      <Carousel.Item className="ca-item">
+                        <div >
                             <div className="row h-100">
 
                                 <img src={Mathhew} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto" }} alt="cause-image" />
@@ -69,8 +69,8 @@ const LoveUs = ({ index, direction, handleSelect }) => {
                             </div>
                         </div>
                     </Carousel.Item>
-                    <Carousel.Item>
-                        <div style={{ maxHeight: "350px" }}>
+                    <Carousel.Item className="ca-item">
+                        <div>
                             <div className="row h-100">
 
                                 <img src={Sumit_kala} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto" }} alt="cause-image" />
@@ -84,7 +84,7 @@ const LoveUs = ({ index, direction, handleSelect }) => {
                                 <p style={{ fontSize: "10px", fontWeight: "bold", margin: "25px auto", color: "#8a8a8a" }}>Sumit Kala, Change-maker</p>
                             </div>
                         </div>
-                    </Carousel.Item> */}
+                    </Carousel.Item> 
                   
                 </Carousel>
 
