@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from 'react-bootstrap/lib/';
-import Advitiya from '../img/AdvitiyaSharma1.jpg';
+import Advitiya from '../img/Advitiya.JPG';
 import Prateek from '../img/prateek.jpg';
 import Mathhew from '../img/Mathhew.jpg';
 import Sumit_kala from '../img/Sumit_kala.JPG'
