@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Logo from '../img/logo1.png';
+import Logo from '../img/impact.png';
 import CompanyLogo from '../img/companylogo.png';
 
 const Nav = () => {
@@ -10,7 +10,7 @@ const Nav = () => {
     <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div className="container">
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
-          <img src={Logo} alt="company-logo" />
+          <img src={Logo} style={{width:"130px"}} alt="company-logo" />
         </a>
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu&nbsp;

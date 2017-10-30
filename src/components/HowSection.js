@@ -9,7 +9,7 @@ const HowSection = ()=> {
         <section className="download text-center" id="download">
         <div className="container">
           <div className="row ">
-            <h2 className="here-how" >Here's How</h2>
+            <h2 className="here-how section-title" >Here's How</h2>
           </div>
           <div className="row">
             <div className="col-sm-4" style={{ minHeight: "400px" }}>

@@ -1,9 +1,9 @@
 import React from 'react';
-import Hero from './../img/hero.jpg';
-
+import Hero from './../img/hero_logo.jpg';
+import LnT from './../img/lnt_logo.jpg';
 import Barclays from './../img/barclays.jpg';
 import Aarti from './../img/Aartiupdated.png';
-import Welspun from './../img/welspun.gif';
+import Welspun from './../img/welspun.png';
 import Jubilant from './../img/jubilant-lifescience.jpg'
 
 
@@ -16,15 +16,15 @@ export default class Sponsor extends React.Component {
 
                         <div className="demo-content1">
                             <div className="row">
-                                <h2 className="here-how">OUR PARTNERS</h2>
+                                <h2 style={{textAlign:"center"}} className="here-how section-title">Our Proud Partners</h2>
                             </div>
                          
                                 <ul className="flex-container">
                                     <li className="flex-item">
-                                        <img style={{ height: "80px" }} src={Hero} alt="sponser-hero" />
+                                        <img style={{ height: "110px" }} src={Hero} alt="sponser-hero" />
                                     </li>
                                     <li className="flex-item">
-                                        <img style={{ height: "90px" }} src={Jubilant} alt="sponser-barclays" />
+                                        <img style={{ height: "90px" }} src={Jubilant} alt="sponser-jubilant" />
                                     </li>
 
                                     <li className="flex-item">
@@ -33,6 +33,10 @@ export default class Sponsor extends React.Component {
                                     <li className="flex-item">
 
                                         <img style={{ height: "70px" }} src={Aarti} alt="sponser-aarti" />
+
+                                    </li>
+                                    <li className="flex-item">
+                                        <img id="Lnt-logo" style={{ height: "50px" }} src={LnT} alt="sponser-LnT" />
 
                                     </li>
                                     <li className="flex-item">

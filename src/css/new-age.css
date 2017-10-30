@@ -10,7 +10,7 @@
      height: 100%;
  }
  body {
-     font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+     font-family: 'latoregular','Muli', 'Helvetica', 'Arial', 'sans-serif';
  }
  a {
      color: #fdcc52;
@@ -137,8 +137,12 @@
 .here-how {
     margin: auto;
     font-weight: bold;
-    font-size: 42px;
+   
     padding-bottom:30px;
+ }
+ .section-title{
+    font-size: 36px;
+    font-family: latobold;
  }
  .centerBlock {
     display: table;
@@ -331,10 +335,10 @@
      position: relative;
      padding: 70px 0;
  }
- section.download h2 {
+ /* section.download h2 {
      font-size: 50px;
      margin-top: 0;
- }
+ } */
  section.download .badges .badge-link {
      display: block;
      margin-bottom: 25px;
@@ -603,9 +607,7 @@
     .how-paragraph p{
         font-size: 14px;
     }
-    .here-how{
-        font-size: 38px !important;
-    }
+   
     .navbar-header {
         float: none;
     }

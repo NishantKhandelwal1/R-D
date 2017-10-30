@@ -15,7 +15,7 @@ const Team = () => {
 
             <div className="container" >
                 <div className="row">
-                    <h3 style={{ margin: "auto", padding: "20px", fontSize: "30px" }}>
+                    <h3 className="section-title" style={{ margin: "auto", padding: "20px"}}>
                         Team
                     </h3>
                 </div>
@@ -156,7 +156,7 @@ const Team = () => {
                                 <span className="position grad">Product @noddy</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                A 10th standard pass-out, Akash hails from a rural background and aims to improve the quality of education and cleanliness in his village. A self learned coder and guitarist, Akash works on front-end and iOS development at Impact.
+                                A 22-year old self learned coder and guitarist, Akash aims to improve the quality of education and cleanliness in his town Uttarkashi. With change-makers’ support through Impact, he has opened a school in his village where kids learn coding and music. Akash works on front-end and iOS development at Impact.
                                 </p>
 
                             </div>
