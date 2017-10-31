@@ -154,6 +154,7 @@
 .glyphicon-chevron-right::before ,.glyphicon-chevron-left::before{
     color: #696060;
 }
+
 .testimonial{
  
     text-align: center;
@@ -560,14 +561,15 @@
  }
 
  footer {
-     padding: 25px 0;
+     padding: 18px 0;
      text-align: center;
      color: rgba(255, 255, 255, 0.3);
-     background-color: #222222;
+     background-color: #18dfbf;
  }
  footer p {
      font-size: 12px;
      margin: 0;
+     color:#2a4560;
     
  }
  footer ul {

@@ -101,18 +101,18 @@ class App extends React.Component {
   
           <footer>
             <div className="container">
-              <p>&copy; 2017 Impact- Get Fit Do Good. All Rights Reserved.</p>
-              <ul className="list-inline">
+              <p >© 2017  Copyrigts are Creative Commons</p>
+              {/* <ul className="list-inline">
                 <li className="list-inline-item">
                   <a href="/privacy.html" target="_blank">Privacy</a>
                 </li>
-                {/* <li className="list-inline-item">
+                <li className="list-inline-item">
                   <a href="javascript:void(0)">Terms</a>
                 </li>
                 <li className="list-inline-item">
                   <a href="javascript:void(0)">FAQ</a>
-                </li> */}
-              </ul>
+                </li>
+              </ul> */}
             </div>
           </footer>
         </div>
