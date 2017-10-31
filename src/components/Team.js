@@ -24,10 +24,10 @@ const Team = () => {
                         
                         <div className="col-sm-6 member">
 
-                            <div className="col-sm-12 col-md-4">
+                            <div className="col-sm-12 col-md-4 nopadding" style={{textAlign:"center"}}>
                                 <img src={Ishan} alt="team" className="img-circle team-image"  />
                             </div>
-                            <div className="col-sm-12 col-md-8">
+                            <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Ishan Nadkarni</h4>
                                 <span className="position grad">Business @nadu</span>
                                 <br />
@@ -40,10 +40,10 @@ const Team = () => {
                         </div>
                     </div>
                         <div className="col-sm-6 member">
-                            <div className="col-sm-12 col-md-4">
+                            <div className="col-sm-12 col-md-4 nopadding" style={{textAlign:"center"}}>
                                 <img src={Nikhil} alt="team" className="img-circle team-image"  />
                             </div>
-                            <div className="col-sm-12 col-md-8">
+                            <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Nikhil Khandelwal</h4>
                                 <span className="position grad">Product @khandu</span>
                                 <br />
@@ -58,10 +58,10 @@ const Team = () => {
                     <div className="row">
 
                         <div className="col-sm-6 member" >
-                            <div className="col-sm-4">
+                            <div className="col-sm-12 col-md-4 nopadding" style={{textAlign:"center"}}>
                                 <img src={Nagle} alt="team" className="img-circle team-image"  />
                             </div>
-                            <div className="col-sm-8">
+                            <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Piyush Nagle</h4>
                                 <span className="position grad">Product @noggles</span>
                                 <br />
@@ -73,10 +73,10 @@ const Team = () => {
                             </div>
                         </div>
                         <div className="col-sm-6 member" >
-                            <div className="col-sm-4">
+                            <div className="col-sm-12 col-md-4 nopadding" style={{textAlign:"center"}}> 
                                 <img src={Ankit} alt="team" className="img-circle team-image"  />
                             </div>
-                            <div className="col-sm-8">
+                            <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Ankit Maheshwari</h4>
                                 <span className="position grad">Product @prof</span>
                                 <br />
@@ -88,10 +88,10 @@ const Team = () => {
                             </div>
                         </div>
                         <div className="col-sm-6 member" >
-                            <div className="col-sm-4">
+                            <div className="col-sm-12 col-md-4 nopadding" style={{textAlign:"center"}}>
                                 <img src={Dhope} alt="team" className="img-circle team-image"  />
                             </div>
-                            <div className="col-sm-8">
+                            <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Abhijeet Dhope</h4>
                                 <span className="position grad">Automation @dhope</span>
                                 <br />
@@ -103,10 +103,10 @@ const Team = () => {
                             </div>
                         </div>
                         <div className="col-sm-6 member" >
-                            <div className="col-sm-4">
+                            <div className="col-sm-12 col-md-4 nopadding" style={{textAlign:"center"}}>
                                 <img src={Gaurav} alt="team" className="img-circle team-image"  />
                             </div>
-                            <div className="col-sm-8">
+                            <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Gaurav Mehra</h4>
                                 <span className="position grad">Business @baddy</span>
                                 <br />
@@ -118,10 +118,10 @@ const Team = () => {
                             </div>
                         </div>
                         <div className="col-sm-6 member" >
-                            <div className="col-sm-4">
+                            <div className="col-sm-12 col-md-4 nopadding" style={{textAlign:"center"}}>
                                 <img src={Nishant} alt="team" className="img-circle team-image"  />
                             </div>
-                            <div className="col-sm-8">
+                            <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Nishant Khandelwal</h4>
                                 <span className="position grad">Product @nikki</span>
                                 <br />
@@ -133,10 +133,10 @@ const Team = () => {
                             </div>
                         </div>
                         <div className="col-sm-6 member" >
-                            <div className="col-sm-4">
+                            <div className="col-sm-12 col-md-4 nopadding" style={{textAlign:"center"}}>
                                 <img src={Kanak} alt="team" className="img-circle team-image"  />
                             </div>
-                            <div className="col-sm-8">
+                            <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Kanak Agrawal</h4>
                                 <span className="position grad">Growth @kay</span>
                                 <br />
@@ -148,10 +148,10 @@ const Team = () => {
                             </div>
                         </div>
                         <div className="col-sm-6 member" >
-                            <div className="col-sm-4">
+                            <div className="col-sm-12 col-md-4 nopadding" style={{textAlign:"center"}}>
                                 <img src={Akash} alt="team-akash" className="img-circle team-image" />
                             </div>
-                            <div className="col-sm-8">
+                            <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Akash Nautiyal</h4>
                                 <span className="position grad">Product @noddy</span>
                                 <br />

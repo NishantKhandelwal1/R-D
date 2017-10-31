@@ -131,7 +131,6 @@
 }
 .team-image{
     width: 100px;
-    height: 100px;
     margin: 7px;
 }
 .here-how {
@@ -156,7 +155,6 @@
 }
 
 .testimonial{
- 
     text-align: center;
     margin: auto;
     padding: 0px 150px;
@@ -191,7 +189,13 @@
       text-align: center;
       align-items: center;
     }
-
+    .nopadding {
+        padding: 0 !important;
+        margin: 0 !important;
+     }
+     .how-paragraph p{
+         max-width: 300px
+     }
 #section01 a span {
     position: absolute;
     top: 0;
@@ -432,7 +436,7 @@
      padding: 40px;
  }
  .member{
-     padding: 20px
+     padding: 10px
  }
  .member p {
      text-align: start;
@@ -489,7 +493,7 @@
         text-align: center;
     }
     .member{
-        padding: 0px
+        padding: 5px;
     }
     .how-paragraph h4{
         text-align: center;
@@ -506,6 +510,10 @@
      .ca-item{
         min-height: 360px;
     }
+    .nopadding {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+     }
      
  }
  section.cta .overlay {
@@ -606,6 +614,9 @@
 
 
  @media (max-width: 991px) {
+    .team-image{
+        width: 80px;    
+    }
     .how-paragraph p{
         font-size: 14px;
     }
@@ -663,9 +674,10 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px){
     .testimonial{
-        margin: 0 82px;
+        margin: 0px 110px;
         padding: 0px;
     }
+   
 }
 @media only screen 
 and (min-device-width : 320px) 
