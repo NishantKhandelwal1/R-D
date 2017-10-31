@@ -11,7 +11,7 @@ import Nishant from '../img/nishant.jpg';
 
 const Team = () => {
     return (
-        <section id="team" className="features" style={{ backgroundColor: "#fbfbfb" }}>
+        <section id="team" className="features grad-section" >
 
             <div className="container" >
                 <div className="row">

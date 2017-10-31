@@ -110,7 +110,7 @@ const Corousel4 = () => {
 const Togethercorousel = () => {
 
   return (
-    <section className="features" id="features" style={{ backgroundColor: "#fbfbfb" }}>
+    <section className="features grad-section" id="features">
       <div className="container-fluid" >
         <div className="container">
           <div className="row">

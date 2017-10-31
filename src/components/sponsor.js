@@ -10,7 +10,7 @@ import Jubilant from './../img/jubilant-lifescience.jpg'
 export default class Sponsor extends React.Component {
     render() {
         return (
-            <section className="features" >
+            <section className="features grad-section" >
                 <div className="container">
                    
 

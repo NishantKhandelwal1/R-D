@@ -9,8 +9,8 @@ import { BounceLoader} from 'react-spinners';
 import Togethercorousel from './components/Togethercorousel.js';
 import LoveUs from './components/LoveUs.js';
 import Team from './components/Team.js';
-import Sponsor from './components/sponsor.js'
-
+import Sponsor from './components/sponsor.js';
+import Contact from './components/Contact.js';
 // import Clipboard from 'clipboard';
 // import Copy from './images/copytoclipboard.svg';
 // import 'primer-tooltips/index.scss';
@@ -73,31 +73,7 @@ class App extends React.Component {
   
           <Team />
   
-          {/* <section className="contact" style={{ background: "rgba(0, 123, 255, 0.32)" }} id="contact">
-            <div className="container">
-              <h2>Made with&nbsp;
-            <i className="fa fa-heart"></i>
-                &nbsp;by your friends at Impact!</h2>
-              <ul className="list-inline list-social">
-              <li className="list-inline-item social-facebook" >
-                  <a href="https://www.facebook.com/GetFitDoGood/" target="_blank">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li className="list-inline-item social-twitter">
-                  <a href="https://twitter.com/ImpactRun01" target="_blank" >
-                    <i className="fa fa-twitter fa-align-center"></i>
-                  </a>
-                </li>
-               
-                <li className="list-inline-item social-google-plus">
-                  <a href="https://www.instagram.com/impact_kindness_app/" target="_blank">
-                    <i className="fa fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </section> */}
+         <Contact/>
   
           <footer>
             <div className="container">
