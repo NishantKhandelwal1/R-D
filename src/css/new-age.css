@@ -208,16 +208,12 @@
      padding: 0 !important;
      margin: 0 !important;
  }
- .how-paragraph p {
-     max-width: 300px
- }
+
  .contact-last {
      text-align: center;
      color: rgba(0, 0, 0, 0.54) !important;
  }
- .img-align{
-    text-align: left
- }
+
  #section01 a span {
      position: absolute;
      top: 0;
@@ -459,7 +455,7 @@
  }
  .how-paragraph h4 {
      text-align: left;
-     padding-bottom: 15px;
+     padding: 15px 0px;
  }
  .carousel-indicators {
      position: absolute;
@@ -506,7 +502,7 @@
          text-align: center;
      }
      .member {
-         padding: 5px;
+         padding: 5px;  
      }
      .how-paragraph h4 {
          text-align: center;
