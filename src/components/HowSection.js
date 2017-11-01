@@ -14,7 +14,7 @@ const HowSection = () => {
         <div className="row">
           <div className="col-sm-4" style={{ minHeight: "400px" }}>
             <div style={{ minHeight: "340px" }}>
-              <div>
+              <div className="img-align">
                 <img src={Callout} alt="callout" className="img-fluid" />
               </div>
               <div className="how-paragraph">
@@ -29,7 +29,7 @@ const HowSection = () => {
           </div>
           <div className="col-sm-4" style={{ minHeight: "400px" }}>
             <div style={{ minHeight: "340px" }}>
-              <div>
+              <div className="img-align">
                 <img src={Callout2} alt="callout" className="img-fluid" />
               </div>
               <div className="how-paragraph">
@@ -42,7 +42,7 @@ const HowSection = () => {
           </div>
           <div className="col-sm-4" style={{ minHeight: "400px" }}>
             <div style={{ minHeight: "340px" }}>
-              <div>
+              <div className="img-align">
                 <img src={Callout3} alt="callout" className="img-fluid" />
               </div>
               <div className="how-paragraph">

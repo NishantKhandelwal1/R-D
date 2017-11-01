@@ -29,7 +29,7 @@ const Team = () => {
                             </div>
                             <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Ishan Nadkarni</h4>
-                                <span className="position grad">Business @nadu</span>
+                                <span className="position">Business @nadu</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
                                 A 2013 IIT Bombay graduate, Ishan dreams of making the world fitter and kinder. With a 3-year experience of scaling business products, operations and digital marketing, he is the brain of Impact managing business, investments and customer excellence.
@@ -45,7 +45,7 @@ const Team = () => {
                             </div>
                             <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Nikhil Khandelwal</h4>
-                                <span className="position grad">Product @khandu</span>
+                                <span className="position">Product @khandu</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
                                 A 2013 IIT Bombay graduate, Nikhil is a design guru and a constant problem solver.With a 3-year experience of heading product teams, he is the heart of Impact handling design, UEx, product strategies and customer excellence.
@@ -63,7 +63,7 @@ const Team = () => {
                             </div>
                             <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Piyush Nagle</h4>
-                                <span className="position grad">Product @noggles</span>
+                                <span className="position">Product @noggles</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
                                 A 2012 IIT Bombay graduate, Piyush is a tech geek and a passionate guitarist. With a 3-year experience of building back-end architecture, he is the backbone of Impact looking after its back-end, dev-ops and iOS.
@@ -78,7 +78,7 @@ const Team = () => {
                             </div>
                             <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Ankit Maheshwari</h4>
-                                <span className="position grad">Product @prof</span>
+                                <span className="position">Product @prof</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
                                 A 2011 IIT Delhi graduate, Ankit is passionate about AI and India's social sector. With a 6-year rich tech experience in Android and machine learning, he is leading the tech at Impact along with building our Andorid app and in-house algorithms.
@@ -93,7 +93,7 @@ const Team = () => {
                             </div>
                             <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Abhijeet Dhope</h4>
-                                <span className="position grad">Automation @dhope</span>
+                                <span className="position">Automation @dhope</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
                                 A 2012 IIT Bombay graduate, Abhijeet is our in-house Learning Machine. From martial arts to cooking, from farming to robotics, you think it, he knows it. With a 3-year programming and 2-year traveling experience, which includes running a cafe in Dharamshala, Abhijeet makes everyone's life easier by streamlining and automating processes at Impact.
@@ -108,7 +108,7 @@ const Team = () => {
                             </div>
                             <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Gaurav Mehra</h4>
-                                <span className="position grad">Business @baddy</span>
+                                <span className="position">Business @baddy</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
                                 A 2012 IIT Bombay graduate, Gaurav cares most about uplifting the bottom billion and has volunteered in several non-profits. He uses his 5-year experience of managing sales and business strategies in start-ups, to look after business and partnerships at Impact.
@@ -123,7 +123,7 @@ const Team = () => {
                             </div>
                             <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Nishant Khandelwal</h4>
-                                <span className="position grad">Product @nikki</span>
+                                <span className="position">Product @nikki</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
                                 A 2013 Vedant college Kota graduate, Nishant spends most of his time either coding or acquiring new programming skills. With a 2-year experience as a technology associate, Nishant works on front-end development and customer satisfaction at Impact.
@@ -138,7 +138,7 @@ const Team = () => {
                             </div>
                             <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Kanak Agrawal</h4>
-                                <span className="position grad">Growth @kay</span>
+                                <span className="position">Growth @kay</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
                                 A 2015 IIT Kanpur graduate, Kanak is a traveller at heart. Writing is her newly found passion after a stint with analytics for 2 years. The mind behind Impact's words, Kanak manages content and social media at Impact along with business communications.
@@ -153,7 +153,7 @@ const Team = () => {
                             </div>
                             <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Akash Nautiyal</h4>
-                                <span className="position grad">Product @noddy</span>
+                                <span className="position">Product @noddy</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
                                 A 22-year old self learned coder and guitarist, Akash aims to improve the quality of education and cleanliness in his town Uttarkashi. With change-makers’ support through Impact, he has opened a school in his village where kids learn coding and music. Akash works on front-end and iOS development at Impact.

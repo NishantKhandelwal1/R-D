@@ -1,5 +1,5 @@
 import React from 'react';
-import CauseImage from '../img/dandi_march.jpg';
+import CauseImage from '../img/dandi_card_299.jpg';
 import AnimatedNumber from 'react-animated-number';
 
 
@@ -46,7 +46,7 @@ const Header = ({ Impact }) => {
                     </div>
                     <div className="col-md-12 col-sm-12 col-xs-12 arrow" style={{ textAlign: "center", minHeight: "91px" }}>
                         <section id="section01">
-                            <a><span></span></a>
+                            <a><span id="arrow-span"></span></a>
                         </section>
                     </div>
 

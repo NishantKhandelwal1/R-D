@@ -37,7 +37,9 @@ const Contact = () => {
                         <li>
                         <a href="/privacy.html" target="_blank">Privacy policy</a>
                             </li>
-                        {<li>&nbsp;</li>}
+                        <li>
+                            <a href="/guideline.html" target="_blank">Guidelines</a>
+                        </li>
                     </ul>
                 </div>
                 <div className="col-sm-4 col-xs-12 contact-last">

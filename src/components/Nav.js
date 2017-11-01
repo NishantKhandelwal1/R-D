@@ -7,7 +7,7 @@ const Nav = () => {
   return (
 
 
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{minHeight:"75px"}} id="mainNav">
       <div className="container">
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
           <img src={Logo} style={{width:"130px"}} alt="company-logo" />

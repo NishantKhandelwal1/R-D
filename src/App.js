@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import logo from './img/companylogo.png';
+import React from 'react';
+// import logo from './img/companylogo.png';
 import './css/new-age.css';
 import Nav from './components/Nav.js';
 import Header from './components/Header.js';
@@ -52,6 +52,15 @@ class App extends React.Component {
       .catch((error) => {
         console.error(error);
       });
+  }
+  componentDidMount(){
+    
+    function scrollFunction() {
+         document.getElementById("arrow-span").style.visibility = "hidden";   //To hide the element.
+    }
+    
+    window.onscroll = scrollFunction;
+    
   }
 
   render() {
