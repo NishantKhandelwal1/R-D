@@ -11,6 +11,7 @@ import LoveUs from './components/LoveUs.js';
 import Team from './components/Team.js';
 import Sponsor from './components/sponsor.js';
 import Contact from './components/Contact.js';
+
 // import Clipboard from 'clipboard';
 // import Copy from './images/copytoclipboard.svg';
 // import 'primer-tooltips/index.scss';

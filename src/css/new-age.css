@@ -3,7 +3,10 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
-
+*{
+    min-height: 0;
+    min-width: 0;
+}
  html,
  body {
      width: 100%;
@@ -11,7 +14,10 @@
  }
  body {
      font-family: 'latoregular', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+
  }
+
+
  a {
      -webkit-transition: all .35s;
      -moz-transition: all .35s;
@@ -213,6 +219,7 @@
      text-align: center;
      color: rgba(0, 0, 0, 0.54) !important;
  }
+
 
  #section01 a span {
      position: absolute;
