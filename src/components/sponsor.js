@@ -30,7 +30,7 @@ export default class Sponsor extends React.Component {
             responsive: [
                 { breakpoint: 768, settings: { slidesToShow: 1 } },
                 { breakpoint: 1024, settings: { slidesToShow: 3 } },
-                { breakpoint: 1400, settings: { slidesToShow: 4 } },
+                { breakpoint: 1400, settings: { slidesToShow: 5 } },
                 { breakpoint: 2200, settings: { slidesToShow: 5 } },
                 { breakpoint: 100000, settings: 'unslick' }
             ],
@@ -46,78 +46,77 @@ export default class Sponsor extends React.Component {
         return (
             <section className="features grad-section" >
                 <div className="container">
-
                     <div className="demo-content1">
                         <div className="row">
                             <h2 style={{ textAlign: "center" }} className="here-how section-title">Our Proud Partners</h2>
                         </div>
                         <Slider {...settings} style={{ margin: "auto" }}>
-                            <div >
+                            <div>
 
-                                <img style={{margin:"auto"}} src={Hero} alt="sponser-hero" />
-
-                            </div>
-                            <div >
-
-                                <img style={{margin:"auto"}} src={Nasscom} alt="sponser-Nasscom" />
+                                <img className="img-fluid slider-image"src={Hero} alt="sponser-hero" />
 
                             </div>
                             <div >
 
-                                <img style={{margin:"auto"}} src={Jubilant} alt="sponser-jubilant" />
+                                <img className="img-fluid slider-image"src={Nasscom} alt="sponser-Nasscom" />
 
                             </div>
                             <div >
 
-                                <img style={{margin:"auto"}} id="Red-Cross-logo" src={RedCross} alt="sponser-Red-Cross" />
+                                <img className="img-fluid slider-image"src={Jubilant} alt="sponser-jubilant" />
 
                             </div>
                             <div >
 
-                                <img style={{margin:"auto"}} src={Barclays} alt="sponser-barclays" />
+                                <img className="img-fluid slider-image"id="Red-Cross-logo" src={RedCross} alt="sponser-Red-Cross" />
 
                             </div>
                             <div >
 
-                                <img style={{margin:"auto"}} src={Naam} alt="sponser-naam" />
+                                <img className="img-fluid slider-image"src={Barclays} alt="sponser-barclays" />
 
                             </div>
                             <div >
 
-                                <img style={{margin:"auto"}} id="Lnt-logo" src={LnT} alt="sponser-LnT" />
+                                <img className="img-fluid slider-image"src={Naam} alt="sponser-naam" />
+
+                            </div>
+                            <div >
+
+                                <img className="img-fluid slider-image"id="Lnt-logo" src={LnT} alt="sponser-LnT" />
 
                             </div>
                             
                             <div >
 
-                                <img style={{margin:"auto"}} src={Aarti} alt="sponser-aarti" />
+                                <img className="img-fluid slider-image"src={Aarti} alt="sponser-aarti" />
 
                             </div>
                         
                             
                             <div >
 
-                                <img style={{margin:"auto"}} src={Welspun} alt="sponser-welspun" />
+                                <img className="img-fluid slider-image"src={Welspun} alt="sponser-welspun" />
 
                             </div>
                             <div >
 
-                                <img style={{margin:"auto"}}  src={GrowTree} alt="sponser-grow-tree" />
+                                <img className="img-fluid slider-image" src={GrowTree} alt="sponser-grow-tree" />
 
                             </div>
                             <div >
 
-                                <img style={{margin:"auto"}}  src={Wockhardt} alt="sponser-wockhardt" />
+                                <img className="img-fluid slider-image" src={Wockhardt} alt="sponser-wockhardt" />
 
                             </div>
                             <div >
 
-                                <img style={{margin:"auto"}}  src={Awwa} alt="sponser-awwa" />
+                                <img className="img-fluid slider-image" src={Awwa} alt="sponser-awwa" />
 
                             </div>
                             <div >
 
-                                <img style={{margin:"auto"}}  src={Ipca} alt="sponser-ipca" />
+                                <img className="img-fluid slider-image" src={Ipca} alt="sponser-ipca" />
 
                             </div>
 

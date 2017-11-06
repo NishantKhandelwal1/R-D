@@ -220,6 +220,11 @@
      color: rgba(0, 0, 0, 0.54) !important;
  }
 
+ .slider-image{
+     margin: auto;
+     padding: 30px;
+ }
+
 
  #section01 a span {
      position: absolute;
