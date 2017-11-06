@@ -8,7 +8,7 @@ import Jubilant from './../img/new-logo/jubilant.png'
 import RedCross from './../img/new-logo/red-cross.png';
 import ThinkFondation from './../img/new-logo/think-logo.png';
 import GrowTree from './../img/new-logo/grow-tree.png';
-import Awwa from './../img/new-logo/awwa.png';
+import Awwa from './../img/new-logo/awwa-logo.png';
 import Ipca from './../img/new-logo/ipca-logo.png';
 import Wockhardt from './../img/new-logo/wockhardt.png';
 import Nasscom from './../img/new-logo/NASSCOM_Logo.png';
