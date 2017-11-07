@@ -92,7 +92,11 @@ export default class Sponsor extends React.Component {
                                 <img className="img-fluid slider-image"src={Aarti} alt="sponser-aarti" />
 
                             </div>
-                        
+                            <div >
+
+                                <img className="img-fluid slider-image"src={ThinkFondation} alt="sponser-think" />
+
+                            </div>
                             
                             <div >
 

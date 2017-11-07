@@ -27,10 +27,10 @@ const Contact = () => {
                     <div className="col-sm-6">
                         <ul className="contact-last" style={{ WebkitPaddingStart: "10px" }}>
                             <li>
-                                <a href="/privacy.html" target="_blank">Privacy policy</a>
+                                <a href="/privacy.html" rel='noopener noreferrer' target="_blank">Privacy policy</a>
                             </li>
                             <li>
-                                <a href="/guideline.html" target="_blank">Guidelines</a>
+                                <a href="/guideline.html" rel='noopener noreferrer' target="_blank">Guidelines</a>
                             </li>
                         </ul>
                     </div>
@@ -39,10 +39,10 @@ const Contact = () => {
                             <p style={{textAlign:"center",marginBottom:"1px",padding:"2px"}}>Download App</p>
                         
                         <div style={{ display: "flex", justifyContent: "center" }}>
-                            <a className="nav-link js-scroll-trigger" href="https://goo.gl/WM27CA" target="_blank" style={{ marginRight: "5px" }}>
+                            <a className="nav-link js-scroll-trigger" href="https://goo.gl/WM27CA" rel='noopener noreferrer' target="_blank" style={{ marginRight: "5px" }}>
                                 <i className="fa fa-android" aria-hidden="true" style={{ color: "black" }}></i>
                             </a>
-                            <a className="nav-link js-scroll-trigger" target="_blank" href="https://goo.gl/qJPjzb">
+                            <a className="nav-link js-scroll-trigger" rel='noopener noreferrer' target="_blank" href="https://goo.gl/qJPjzb">
                                 <i className="fa fa-apple" aria-hidden="true" style={{ color: "black" }}></i>
                             </a>
                         </div>
@@ -53,18 +53,18 @@ const Contact = () => {
                         <p>Stay Connected</p>
                         <ul className="list-inline list-social" >
                             <li className="list-inline-item social-facebook" style={{ textAlign: "center" }}>
-                                <a href="https://www.facebook.com/GetFitDoGood/" target="_blank">
+                                <a href="https://www.facebook.com/GetFitDoGood/" rel='noopener noreferrer' target="_blank">
                                     <i className="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li className="list-inline-item social-twitter" style={{ textAlign: "center" }}>
-                                <a href="https://twitter.com/ImpactRun01" target="_blank" >
+                                <a href="https://twitter.com/ImpactRun01" rel='noopener noreferrer' target="_blank" >
                                     <i className="fa fa-twitter fa-align-center"></i>
                                 </a>
                             </li>
 
                             <li className="list-inline-item social-google-plus" style={{ textAlign: "center" }}>
-                                <a href="https://www.instagram.com/impact_kindness_app/" target="_blank">
+                                <a href="https://www.instagram.com/impact_kindness_app/" rel='noopener noreferrer' target="_blank">
                                     <i className="fa fa-instagram"></i>
                                 </a>
                             </li>

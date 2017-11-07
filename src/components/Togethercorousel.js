@@ -23,7 +23,7 @@ const Corousel1 = () => {
       <div className="col-sm-5 my-auto" >
         <div className="device-container">
           <div className="img-fluid centerBlock">
-            <img src={Entrepreneur} className="img-fluid slider-cause" alt="cause-image" />
+            <img src={Entrepreneur} className="img-fluid slider-cause" alt="women-cause" />
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@ const Corousel3 = () => {
       <div className="col-sm-5 my-auto" >
         <div className="device-container">
           <div className="img-fluid centerBlock">
-            <img src={Farmer} className="img-fluid slider-cause" alt="cause-image" />
+            <img src={Farmer} className="img-fluid slider-cause" alt="farmer-cause" />
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@ const Corousel4 = () => {
       <div className="col-sm-5 my-auto" >
         <div className="device-container">
           <div className="img-fluid centerBlock">
-            <img src={Awwa} className="img-fluid slider-cause" alt="cause-image" />
+            <img src={Awwa} className="img-fluid slider-cause" alt="army-cause" />
           </div>
         </div>
       </div>

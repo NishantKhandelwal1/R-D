@@ -20,7 +20,7 @@ const LoveUs = ({ index, direction, handleSelect }) => {
                         <div >
                             <div className="row h-100">
 
-                                <img src={Prateek} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto" }} alt="cause-image" />
+                                <img src={Prateek} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto" }} alt="testimonial-pratik" />
                             </div>
                             <div className="row">
                                 <h4 className="testimonial">  I love the concept and the app a lot. Tells the calories burned based on the weight as well.</h4>
@@ -38,7 +38,7 @@ const LoveUs = ({ index, direction, handleSelect }) => {
 
                             <div className="row h-100">
 
-                                <img src={Advitiya} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto" }} alt="cause-image" />
+                                <img src={Advitiya} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto" }} alt="testimonial-Advitiya" />
                             </div>
                             <div className="row">
                                 <h4 className="testimonial" >
@@ -57,7 +57,7 @@ const LoveUs = ({ index, direction, handleSelect }) => {
                         <div >
                             <div className="row h-100">
 
-                                <img src={Mathhew} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto" }} alt="cause-image" />
+                                <img src={Mathhew} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto" }} alt="testimonial-Matthew" />
                             </div>
                             <div className="row">
                                 <h4 className="testimonial">I love running with <i>Impact</i> because it supports amazing causes and keeps me active and inspired.</h4>
@@ -73,7 +73,7 @@ const LoveUs = ({ index, direction, handleSelect }) => {
                         <div>
                             <div className="row h-100">
 
-                                <img src={Sumit_kala} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto" }} alt="cause-image" />
+                                <img src={Sumit_kala} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto" }} alt="testimonial-Sumit" />
                             </div>
                             <div className="row">
                                 <h4 className="testimonial">I run for 20 km with <i>Impact</i> every day. Helping someone while improving my stamina is the best combination ever.</h4>

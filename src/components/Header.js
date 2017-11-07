@@ -15,14 +15,15 @@ const Header = ({ Impact }) => {
                                     <AnimatedNumber component="text" value={(Impact * 121)}
                                         stepPrecision={0}
                                         duration={800}
-                                        formatValue={n => (n).toLocaleString('en')}
+                                        formatValue={n => (n).toLocaleString('en-IN')}
                                     />
                                 </span> steps <br /> have raised
-                                <span style={{ color: "#18dfbf", }}> <br />&#8377;
+                                <span style={{ color: "#18dfbf", }}> <br />
+                                <i className="fa fa-inr" style={{fontSize:"40px"}} aria-hidden="true"></i>
                                 <AnimatedNumber component="text" value={Impact}
                                         stepPrecision={0}
                                         duration={800}
-                                        formatValue={n => (n).toLocaleString('en')}
+                                        formatValue={n => (n).toLocaleString('en-IN')}
                                     />
                                 </span> for&nbsp;charity
 
@@ -38,7 +39,7 @@ const Header = ({ Impact }) => {
                         <div className="device-container">
                             <div className="centerBlock">
 
-                                <img src={CauseImage} style={{ boxShadow: "0 0 20px 7px #f5f5f5" }} className="img-fluid" alt="cause-image" />
+                                <img src={CauseImage} style={{ boxShadow: "0 0 20px 7px #f5f5f5" }} className="img-fluid" alt="cause-dandi" />
 
 
                             </div>
