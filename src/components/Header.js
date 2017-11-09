@@ -14,23 +14,22 @@ const Header = ({ Impact }) => {
                                 <span style={{ fontFamily: "latoblack", color: "rgb(55, 55, 55)", transition: "1.8s ease-out" }}>
                                     <AnimatedNumber component="text" value={(Impact * 121)}
                                         stepPrecision={0}
-                                        duration={800}
+                                        duration={1200}
+                                        initialValue={10000}
                                         formatValue={n => (n).toLocaleString('en-IN')}
                                     />
                                 </span> steps <br /> have raised
                                 <span style={{ color: "#18dfbf", }}> <br />
-                                <i className="fa fa-inr" style={{fontSize:"40px"}} aria-hidden="true"></i>
+                                <i className="fa fa-inr" style={{fontSize:"100%"}} aria-hidden="true"></i>
                                 <AnimatedNumber component="text" value={Impact}
                                         stepPrecision={0}
-                                        duration={800}
+                                        duration={1200}
+                                        initialValue={10000}
                                         formatValue={n => (n).toLocaleString('en-IN')}
                                     />
                                 </span> for&nbsp;charity
-
                                 <br />
                                 <br />
-
-
                             </h1>
                             {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
                         </div>
@@ -38,10 +37,7 @@ const Header = ({ Impact }) => {
                     <div className="col-sm-5 my-auto">
                         <div className="device-container">
                             <div className="centerBlock">
-
                                 <img src={CauseImage} style={{ boxShadow: "0 0 20px 7px #f5f5f5" }} className="img-fluid" alt="cause-dandi" />
-
-
                             </div>
                         </div>
                     </div>

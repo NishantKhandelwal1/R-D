@@ -160,10 +160,20 @@
  .glyphicon-chevron-left::before {
      color: #696060;
  }
+
  .testimonial {
      text-align: center;
      margin: auto;
      padding: 0px 150px;
+ }
+ .testimonial-name{
+    font-size: 15px;
+    font-family: latobold;
+    margin: 25px auto;
+    color: #4a4a4a;
+ }
+ .testimonial-name::before{
+     content: "–"
  }
  .masthead .container .slider {
      margin-top: 80px;
