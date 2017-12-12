@@ -8,7 +8,7 @@ const Nav = () => {
 
 
     <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{minHeight:"75px"}} id="mainNav">
-      <div className="container">
+      <div className="container collapse-button">
         <a className="navbar-brand js-scroll-trigger" href="#page-top">
           <img src={Logo} style={{width:"130px"}} alt="company-logo" />
         </a>
@@ -16,6 +16,7 @@ const Nav = () => {
           Menu&nbsp;
              <i className="fa fa-bars"></i>
         </button>
+        <div className="clearfix"></div>
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ml-auto" style={{ marginRight: "70px" }}>
             <li className="nav-item" style={{ display: "-webkit-box", marginRight: "20px" }}>

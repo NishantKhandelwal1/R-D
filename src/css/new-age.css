@@ -557,6 +557,29 @@
      .img-align{
          text-align: center;
      }
+
+     .collapse-button{
+         display: table !important;
+     }
+     a.navbar-brand.js-scroll-trigger{
+         display: table-cell;
+         float: left;
+         padding: 0px;
+     }
+     #mainNav .navbar-toggler{
+           display: table-cell;
+           float: right;
+     }
+     .navbar-nav{
+         display: block !important;
+     }
+     #mainNav{
+         padding: 10px;
+     }
+     .navbar{
+         align-items: normal;
+
+     }
  }
  section.cta .overlay {
      position: absolute;
