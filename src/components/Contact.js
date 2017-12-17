@@ -42,9 +42,9 @@ const Contact = () => {
                             <a className="nav-link js-scroll-trigger" href="https://goo.gl/WM27CA" rel='noopener noreferrer' target="_blank" style={{ marginRight: "5px" }}>
                                 <i className="fa fa-android" aria-hidden="true" style={{ color: "black" }}></i>
                             </a>
-                            <a className="nav-link js-scroll-trigger" rel='noopener noreferrer' target="_blank" href="https://goo.gl/qJPjzb">
-                                <i className="fa fa-apple" aria-hidden="true" style={{ color: "black" }}></i>
-                            </a>
+                            {/* <a className="nav-link js-scroll-trigger" rel='noopener noreferrer' target="_blank" href="https://goo.gl/qJPjzb">
+                                 <i className="fa fa-apple" aria-hidden="true" style={{ color: "black" }}></i>
+                            </a> */}
                         </div>
                     </div>
                 </div>
