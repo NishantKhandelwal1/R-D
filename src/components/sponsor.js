@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from './../img/new-logo/hero.png';
-import LnT from './../img/new-logo/lnt.png';
+import LTI from './../img/new-logo/Lti.gif';
 import Barclays from './../img/new-logo/barclay.png';
 import Aarti from './../img/new-logo/aarti-logo.png';
 import Welspun from './../img/new-logo/welspun-logo.png';
@@ -51,78 +51,20 @@ export default class Sponsor extends React.Component {
                             <h2 style={{ textAlign: "center" }} className="here-how section-title">Our Proud Partners</h2>
                         </div>
                         <Slider {...settings} style={{ margin: "auto" }}>
-                            <div>
-
-                                <img className="img-fluid slider-image"src={Hero} alt="sponser-hero" />
-
-                            </div>
-                            <div >
-
-                                <img className="img-fluid slider-image"src={Nasscom} alt="sponser-Nasscom" />
-
-                            </div>
-                            <div >
-
-                                <img className="img-fluid slider-image"src={Jubilant} alt="sponser-jubilant" />
-
-                            </div>
-                            <div >
-
-                                <img className="img-fluid slider-image"id="Red-Cross-logo" src={RedCross} alt="sponser-Red-Cross" />
-
-                            </div>
-                            <div >
-
-                                <img className="img-fluid slider-image"src={Barclays} alt="sponser-barclays" />
-
-                            </div>
-                            <div >
-
-                                <img className="img-fluid slider-image"src={Naam} alt="sponser-naam" />
-
-                            </div>
-                            <div >
-
-                                <img className="img-fluid slider-image"id="Lnt-logo" src={LnT} alt="sponser-LnT" />
-
-                            </div>
-                            
-                            <div >
-
-                                <img className="img-fluid slider-image"src={Aarti} alt="sponser-aarti" />
-
-                            </div>
-                            <div >
-
-                                <img className="img-fluid slider-image"src={ThinkFondation} alt="sponser-think" />
-
-                            </div>
-                            
-                            <div >
-
-                                <img className="img-fluid slider-image"src={Welspun} alt="sponser-welspun" />
-
-                            </div>
-                            <div >
-
-                                <img className="img-fluid slider-image" src={GrowTree} alt="sponser-grow-tree" />
-
-                            </div>
-                            <div >
-
-                                <img className="img-fluid slider-image" src={Wockhardt} alt="sponser-wockhardt" />
-
-                            </div>
-                            <div >
-
-                                <img className="img-fluid slider-image" src={Awwa} alt="sponser-awwa" />
-
-                            </div>
-                            <div >
-
-                                <img className="img-fluid slider-image" src={Ipca} alt="sponser-ipca" />
-
-                            </div>
+                            <div><img className="img-fluid slider-image" src={Hero} alt="sponser-hero" /></div>
+                            <div ><img className="img-fluid slider-image" src={Nasscom} alt="sponser-Nasscom" /></div>
+                            <div ><img className="img-fluid slider-image" src={Jubilant} alt="sponser-jubilant" /></div>
+                            <div ><img className="img-fluid slider-image" id="Red-Cross-logo" src={RedCross} alt="sponser-Red-Cross" /></div>
+                            <div ><img className="img-fluid slider-image" id="LTI-logo" src={LTI} alt="sponser-LTI" /></div>
+                            <div ><img className="img-fluid slider-image" src={Naam} alt="sponser-naam" /></div>
+                            <div ><img className="img-fluid slider-image" src={Barclays} alt="sponser-barclays" /></div>                         
+                            <div ><img className="img-fluid slider-image" src={Aarti} alt="sponser-aarti" /></div>
+                            <div ><img className="img-fluid slider-image" src={ThinkFondation} alt="sponser-think" /></div>
+                            <div ><img className="img-fluid slider-image" src={Welspun} alt="sponser-welspun" /></div>
+                            <div ><img className="img-fluid slider-image" src={GrowTree} alt="sponser-grow-tree" /></div>
+                            <div ><img className="img-fluid slider-image" src={Wockhardt} alt="sponser-wockhardt" /></div>
+                            <div ><img className="img-fluid slider-image" src={Awwa} alt="sponser-awwa" /></div>
+                            <div ><img className="img-fluid slider-image" src={Ipca} alt="sponser-ipca" /></div>
 
 
 
