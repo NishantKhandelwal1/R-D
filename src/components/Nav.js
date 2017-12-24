@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Logo from '../img/impact.png';
+import Logo from '../img/contact-logo.png';
 import CompanyLogo from '../img/companylogo.png';
 
 const Nav = () => {
@@ -9,7 +9,7 @@ const Nav = () => {
 
     <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{minHeight:"75px"}} id="mainNav">
       <div className="container collapse-button">
-        <a className="navbar-brand js-scroll-trigger" href="#page-top">
+        <a className="navbar-brand js-scroll-trigger" href="#page-top" style={{display:"flex",height:"55px"}}>
           <img src={Logo} style={{width:"130px"}} alt="company-logo" />
         </a>
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,13 +34,13 @@ const Nav = () => {
             </li>
 
             <li className="nav-item" style={{ marginRight: "20px" }}>
-              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#download">How It works?</a>
+              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#download">How?</a>
             </li>
             <li className="nav-item" style={{ marginRight: "20px" }}>
-              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#team">Our Team</a>
+              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
             <li className="nav-item" >
-              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="http://il.impactrun.com/" rel='noopener noreferrer' target="_blank">Impact League</a>
+              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="http://il.impactrun.com/" rel='noopener noreferrer' target="_blank">League</a>
             </li>
           </ul>
         </div>

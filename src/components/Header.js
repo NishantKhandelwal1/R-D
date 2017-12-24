@@ -1,5 +1,5 @@
 import React from 'react';
-import CauseImage from '../img/dandi_card_299.jpg';
+import CauseImage from '../img/dandi_mobile_image.png';
 import AnimatedNumber from 'react-animated-number';
 
 
@@ -37,7 +37,7 @@ const Header = ({ Impact }) => {
                     <div className="col-sm-5 my-auto">
                         <div className="device-container">
                             <div className="centerBlock">
-                                <img src={CauseImage} style={{ boxShadow: "0 0 20px 7px #f5f5f5" }} className="img-fluid" alt="cause-dandi" />
+                                <img src={CauseImage} /*style={{ boxShadow: "0 0 20px 7px #f5f5f5" }}*/ className="img-fluid" alt="cause-dandi" />
                             </div>
                         </div>
                     </div>
