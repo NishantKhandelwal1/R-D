@@ -117,8 +117,8 @@ const Corousel5 = () => {
       <div className="col-sm-7 my-auto carousel" >
         <div className="header-content mx-auto">
           <h1 className="mb-5">
-            Trained 1000s
-            <br /><span style={{ color: "#18dfbf" }}> of youth with</span>
+            Trained 
+            <br /><span style={{ color: "#18dfbf" }}>1000s of youth with</span>
             <br />employability skills
           </h1>
           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
@@ -142,7 +142,7 @@ const Corousel6 = () => {
         <div className="header-content mx-auto">
           <h1 className="mb-5">
             Provided meals to
-            <br /><span style={{ color: "#18dfbf" }}> 385 kids in school,</span>
+            <br /><span style={{ color: "#18dfbf" }}> 385 school kids,</span>
             <br />for 1 year
           </h1>
           {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
