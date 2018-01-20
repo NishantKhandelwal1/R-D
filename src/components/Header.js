@@ -12,7 +12,7 @@ const Header = ({ Impact }) => {
                         <div className="header-content mx-auto">
                             <h1 style={{ color: "rgb(59, 59, 59)" }} className="mb-5 head">
                                 <span style={{ fontFamily: "latoblack", color: "rgb(55, 55, 55)", transition: "1.8s ease-out" }}>
-                                    <AnimatedNumber component="text" value={(Impact * 121)}
+                                    <AnimatedNumber component="text" value={(Impact * 123)}
                                         stepPrecision={0}
                                         duration={1200}
                                         initialValue={10000}

@@ -4,6 +4,8 @@ import Awwa from '../img/heroes-awwa.jpg';
 import Entrepreneur from '../img/enterpreneur.jpg';
 import Farmer from '../img/farmers.jpg';
 import { Carousel, CarouselItem } from 'react-bootstrap/lib/';
+import Nasscom from '../img/completed-cause-nasscom.jpg';
+import FeedingIndia from '../img/completed-cause-card_feeding_india.jpg';
 
 
 const Corousel1 = () => {
@@ -107,6 +109,55 @@ const Corousel4 = () => {
     </div>
   )
 }
+
+const Corousel5 = () => {
+  return (
+    <div className="row h-100 slider" >
+
+      <div className="col-sm-7 my-auto carousel" >
+        <div className="header-content mx-auto">
+          <h1 className="mb-5">
+            Trained 1000s
+            <br /><span style={{ color: "#18dfbf" }}> of youth with</span>
+            <br />employability skills
+          </h1>
+          {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
+        </div>
+      </div>
+      <div className="col-sm-5 my-auto" >
+        <div className="device-container">
+          <div className="img-fluid centerBlock">
+            <img src={Nasscom} className="img-fluid slider-cause" alt="army-cause" />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+const Corousel6 = () => {
+  return (
+    <div className="row h-100 slider" >
+
+      <div className="col-sm-7 my-auto carousel" >
+        <div className="header-content mx-auto">
+          <h1 className="mb-5">
+            Provided meals to
+            <br /><span style={{ color: "#18dfbf" }}> 385 kids in school,</span>
+            <br />for 1 year
+          </h1>
+          {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
+        </div>
+      </div>
+      <div className="col-sm-5 my-auto" >
+        <div className="device-container">
+          <div className="img-fluid centerBlock">
+            <img src={FeedingIndia} className="img-fluid slider-cause" alt="army-cause" />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
 const Togethercorousel = () => {
 
   return (
@@ -115,7 +166,7 @@ const Togethercorousel = () => {
         <div className="container">
           <div className="row">
 
-            <h3 className="section-title" style={{ margin: "auto", padding: "20px", textAlign: "center"}}>
+            <h3 className="section-title" style={{ margin: "auto", padding: "20px", textAlign: "center" }}>
               Together we have
         </h3>
 
@@ -133,6 +184,12 @@ const Togethercorousel = () => {
             </CarouselItem>
             <CarouselItem>
               <Corousel4 />
+            </CarouselItem>
+            <CarouselItem>
+              <Corousel5 />
+            </CarouselItem>
+            <CarouselItem>
+              <Corousel6 />
             </CarouselItem>
           </Carousel>
           {/* <Carousel>

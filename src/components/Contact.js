@@ -14,7 +14,8 @@ const Contact = () => {
                                 <a href="#page-top">Home</a>
                             </li>
                             <li>
-                                <a href="#download">How&nbsp;It&nbsp;works?</a>
+                                {/* <a href="#download">How&nbsp;It&nbsp;works?</a> */}
+                                <a href="#download">How?</a>
                             </li>
                             <li>
                                 <a href="#team">Team</a>
