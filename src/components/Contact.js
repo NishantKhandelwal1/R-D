@@ -43,9 +43,9 @@ const Contact = () => {
                             <a className="nav-link js-scroll-trigger" href="https://goo.gl/WM27CA" rel='noopener noreferrer' target="_blank" style={{ marginRight: "5px" }}>
                                 <i className="fa fa-android" aria-hidden="true" style={{ color: "black" }}></i>
                             </a>
-                            {/* <a className="nav-link js-scroll-trigger" rel='noopener noreferrer' target="_blank" href="https://goo.gl/qJPjzb">
+                            <a className="nav-link js-scroll-trigger" rel='noopener noreferrer' target="_blank" href="https://goo.gl/qJPjzb">
                                  <i className="fa fa-apple" aria-hidden="true" style={{ color: "black" }}></i>
-                            </a> */}
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                         <p>Stay Connected</p>
                         <ul className="list-inline list-social" >
                             <li className="list-inline-item social-facebook" style={{ textAlign: "center" }}>
-                                <a href="https://www.facebook.com/GetFitDoGood/" rel='noopener noreferrer' target="_blank">
+                                <a href="https://www.facebook.com/impactapp01/" rel='noopener noreferrer' target="_blank">
                                     <i className="fa fa-facebook"></i>
                                 </a>
                             </li>
