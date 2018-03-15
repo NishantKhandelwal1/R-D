@@ -51,20 +51,20 @@ export default class Sponsor extends React.Component {
                             <h2 style={{ textAlign: "center" }} className="here-how section-title">Our Proud Partners</h2>
                         </div>
                         <Slider {...settings} style={{ margin: "auto" }}>
-                            <div><img className="img-fluid slider-image" src={Hero} alt="sponser-hero" /></div>
-                            <div ><img className="img-fluid slider-image" src={Nasscom} alt="sponser-Nasscom" /></div>
-                            <div ><img className="img-fluid slider-image" src={Jubilant} alt="sponser-jubilant" /></div>
-                            <div ><img className="img-fluid slider-image" id="Red-Cross-logo" src={RedCross} alt="sponser-Red-Cross" /></div>
-                            <div ><img className="img-fluid slider-image" id="LTI-logo" src={LTI} alt="sponser-LTI" /></div>
-                            <div ><img className="img-fluid slider-image" src={Naam} alt="sponser-naam" /></div>
-                            <div ><img className="img-fluid slider-image" src={Barclays} alt="sponser-barclays" /></div>                         
-                            <div ><img className="img-fluid slider-image" src={Aarti} alt="sponser-aarti" /></div>
-                            <div ><img className="img-fluid slider-image" src={ThinkFondation} alt="sponser-think" /></div>
-                            <div ><img className="img-fluid slider-image" src={Welspun} alt="sponser-welspun" /></div>
-                            <div ><img className="img-fluid slider-image" src={GrowTree} alt="sponser-grow-tree" /></div>
-                            <div ><img className="img-fluid slider-image" src={Wockhardt} alt="sponser-wockhardt" /></div>
-                            <div ><img className="img-fluid slider-image" src={Awwa} alt="sponser-awwa" /></div>
-                            <div ><img className="img-fluid slider-image" src={Ipca} alt="sponser-ipca" /></div>
+                            <div><a href="https://www.heromotocorp.com/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" src={Hero} alt="sponser-hero" /></a></div>
+                            <div ><a href="http://www.nasscomfoundation.org/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" src={Nasscom} alt="sponser-Nasscom" /></a></div>
+                            <div ><a href="http://www.jubl.com/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" src={Jubilant} alt="sponser-jubilant" /></a></div>
+                            <div ><a href="http://www.redcross.org/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" id="Red-Cross-logo" src={RedCross} alt="sponser-Red-Cross" /></a></div>
+                            <div ><a href="https://www.lntinfotech.com/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" id="LTI-logo" src={LTI} alt="sponser-LTI" /></a></div>
+                            <div ><a href="http://naammh.org/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" src={Naam} alt="sponser-naam" /></a></div>
+                            <div ><a href="https://www.barclays.in/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" src={Barclays} alt="sponser-barclays" /></a></div>                         
+                            <div ><a href="http://www.aarti-industries.com/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" src={Aarti} alt="sponser-aarti" /></a></div>
+                            <div ><a href="http://www.thinkfoundation.org/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" src={ThinkFondation} alt="sponser-think" /></a></div>
+                            <div ><a href="http://www.welspunindia.com/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" src={Welspun} alt="sponser-welspun" /></a></div>
+                            <div ><a href="https://www.grow-trees.com/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" src={GrowTree} alt="sponser-grow-tree" /></a></div>
+                            <div ><a href="http://wockhardtfoundation.org/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" src={Wockhardt} alt="sponser-wockhardt" /></a></div>
+                            <div ><a href="http://www.awwa.in/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" src={Awwa} alt="sponser-awwa" /></a></div>
+                            <div ><a href="http://www.ipcalabs.com/" rel='noopener noreferrer' target="_blank"><img className="img-fluid slider-image" src={Ipca} alt="sponser-ipca" /></a></div>
 
 
 
