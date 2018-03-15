@@ -6,6 +6,7 @@ import Farmer from '../img/farmers.jpg';
 import { Carousel, CarouselItem } from 'react-bootstrap/lib/';
 import Nasscom from '../img/completed-cause-nasscom.jpg';
 import FeedingIndia from '../img/completed-cause-card_feeding_india.jpg';
+import Growtree from "../img/completed_cause_card_LTI_Growtrees.jpg";
 
 
 const Corousel1 = () => {
@@ -117,7 +118,7 @@ const Corousel5 = () => {
       <div className="col-sm-7 my-auto carousel" >
         <div className="header-content mx-auto">
           <h1 className="mb-5">
-            Trained 
+            Trained
             <br /><span style={{ color: "#18dfbf" }}>1000s of youth with</span>
             <br />employability skills
           </h1>
@@ -158,6 +159,32 @@ const Corousel6 = () => {
     </div>
   )
 }
+
+
+const Corousel7 = () => {
+  return (
+    <div className="row h-100 slider" >
+
+      <div className="col-sm-7 my-auto carousel" >
+        <div className="header-content mx-auto">
+          <h1 className="mb-5">
+            Planted
+            <br /><span style={{ color: "#18dfbf" }}> 11,250 trees at Nimbhora </span>
+            <br />village of Maharashtra
+          </h1>
+          {/* <a href="#download" className="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> */}
+        </div>
+      </div>
+      <div className="col-sm-5 my-auto" >
+        <div className="device-container">
+          <div className="img-fluid centerBlock">
+            <a href="https://www.lntinfotech.com/social-responsibility/" target="_blank" rel='noopener noreferrer'><img src={Growtree} className="img-fluid slider-cause" alt="army-cause" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
 const Togethercorousel = () => {
 
   return (
@@ -190,6 +217,9 @@ const Togethercorousel = () => {
             </CarouselItem>
             <CarouselItem>
               <Corousel6 />
+            </CarouselItem>
+            <CarouselItem>
+              <Corousel7 />
             </CarouselItem>
           </Carousel>
           {/* <Carousel>
