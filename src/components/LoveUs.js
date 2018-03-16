@@ -22,11 +22,11 @@ const LoveUs = ({ index, direction, handleSelect }) => {
                                 <img src={Nana} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto" }} alt="testimonial-nana" />
                             </div>
                             <div className="row">
-                                <h4 className="testimonial">  We at Naam Foundation wish to congratulate every Impact App user. Each of you is indeed making a huge difference in someone’s life!</h4>
+                                <h4 className="testimonial"> We at Naam Foundation wish to congratulate every <i>Impact App</i> user. Each of you is indeed making a huge difference in someone’s life!</h4>
                             </div>
                             <hr style={{ borderWidth: "2px", borderColor: "rgba(52, 58, 64, 0.54)" }} />
                             <div className="row">
-                                <span className="testimonial-name">Nana patekar<span style={{fontFamily: "latoregular"}}>, Actor</span></span>  
+                                <span className="testimonial-name">Nana Patekar<span style={{fontFamily: "latoregular"}}>, Actor, Philanthropist</span></span>  
                             </div>
                         </div>
                     </Carousel.Item>
