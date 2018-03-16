@@ -3,7 +3,8 @@ import { Carousel } from 'react-bootstrap/lib/';
 import Advitiya from '../img/Advitiya.JPG';
 import Prateek from '../img/prateek.jpg';
 import Mathhew from '../img/Mathhew.jpg';
-import Sumit_kala from '../img/Sumit_kala.JPG'
+import Sumit_kala from '../img/Sumit_kala.JPG';
+import Nana from '../img/Nana.png';
 
 const LoveUs = ({ index, direction, handleSelect }) => {
     return (
@@ -15,6 +16,20 @@ const LoveUs = ({ index, direction, handleSelect }) => {
                     </h3>
                 </div>
                 <Carousel indicators={false} activeIndex={index} direction={direction} onSelect={handleSelect}>
+                <Carousel.Item className="ca-item">
+                        <div >
+                            <div className="row h-100">
+                                <img src={Nana} className="img-fluid img-circle" style={{ height: "100px", width: "100px", margin: "40px auto" }} alt="testimonial-nana" />
+                            </div>
+                            <div className="row">
+                                <h4 className="testimonial">  We at Naam Foundation wish to congratulate every Impact App user. Each of you is indeed making a huge difference in someone’s life!”</h4>
+                            </div>
+                            <hr style={{ borderWidth: "2px", borderColor: "rgba(52, 58, 64, 0.54)" }} />
+                            <div className="row">
+                                <span className="testimonial-name">Nana patekar<span style={{fontFamily: "latoregular"}}>, Actor</span></span>  
+                            </div>
+                        </div>
+                    </Carousel.Item>
                     <Carousel.Item className="ca-item">
                         <div >
                             <div className="row h-100">
