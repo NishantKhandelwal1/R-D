@@ -87,7 +87,7 @@ class App extends React.Component {
   
           <footer>
             <div className="container">
-              <p >© 2016 Green Fredom Pvt Ltd. All rignts reserved.</p>
+              <p >© 2016 Green Freedom Pvt Ltd. All rights reserved.</p>
               {/* <ul className="list-inline">
                 <li className="list-inline-item">
                   <a href="/privacy.html" target="_blank">Privacy</a>
