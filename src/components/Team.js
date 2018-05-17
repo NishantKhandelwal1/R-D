@@ -1,7 +1,7 @@
 import React from 'react';
 import Ishan from '../img/Ishan.jpg';
 import Nikhil from '../img/Nikhil.jpg';
-// import Nagle from '../img/nagle.jpg';
+ import Nagle from '../img/nagle.jpg';
 import Ankit from '../img/ankit.jpg';
 // import Dhope from '../img/dhope.jpg';
 import Gaurav from '../img/gaurav.jpg';
@@ -57,7 +57,7 @@ const Team = () => {
                     </div>
                     <div className="row">
 
-                        {/* <div className="col-sm-6 member" >
+                        <div className="col-sm-6 member" >
                             <div className="col-sm-12 col-md-4 nopadding" style={{textAlign:"center"}}>
                                 <img src={Nagle} alt="team" className="img-circle team-image"  />
                             </div>
@@ -71,7 +71,7 @@ const Team = () => {
                                 </p>
 
                             </div>
-                        </div> */}
+                        </div>
                         <div className="col-sm-6 member" >
                             <div className="col-sm-12 col-md-4 nopadding" style={{textAlign:"center"}}> 
                                 <img src={Ankit} alt="team" className="img-circle team-image"  />
