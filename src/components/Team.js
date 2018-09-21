@@ -231,11 +231,11 @@ const Team = () => {
                             </div>
                             <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Adrija Choudhury</h4>
-                                <span className="position">Analytics & Support @addy</span>
+                                <span className="position">Growth @addy</span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                A 2017 Amity University political science honors graduate, Adrija is also a student of International Law and United Nation studies. She has an undeterred dream to open shelters for stray animals to provide them safe home. At Impact, Adrija works on customer excellence, analytics and creative video making.
-                                <br/>Ex-Krityanand UNESCO, NEEF
+                                A 2017 Amity University graduate, Adrija is also a student of International Law and United Nation studies. She has an undeterred dream to open shelters for stray animals to provide them safe home. At Impact, Adrija works on customer excellence, analytics and video making.
+                                <br />Ex-Krityanand UNESCO, NEEF
                                 </p>
 
                             </div>
@@ -246,15 +246,17 @@ const Team = () => {
                             </div>
                             <div className="col-sm-12 col-md-8 nopadding">
                                 <h4 style={{ textTransform: "uppercase" }}>Aayush Khandelwal</h4>
-                                <span className="position">Product</span>
+                                <span className="position">Growth </span>
                                 <br />
                                 <p style={{ fontSize: "12px" }}>
-                                    A 2018 Pillai College Mumbai graduate, Arhant is an animal lover at heart and is passionate about working for their welfare. He spends most of his time either working on his sales strategies or creating new business partnerships for Impact.
+                                    A 2016 GIT Jaipur graduate, Aayush is a passionate designer who loves to learn new things to solve complex problems. With 3-year
+                                    experience in graphic and print design, Aayush is everyone's go to guy for creatives at Impact.
+                                    <br /> Ex- Sattviko
                                 </p>
 
                             </div>
                         </div>
-                      
+
 
                     </div>
                 </div>
