@@ -40,7 +40,7 @@ const Nav = () => {
               <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="#team">Team</a>
             </li>
             <li className="nav-item" >
-              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="http://il.impactrun.com/" rel='noopener noreferrer' target="_blank">League</a>
+              <a style={{ color: "#000000" }} className="nav-link js-scroll-trigger" href="http://blog.impactapp.in/" rel='noopener noreferrer' target="_blank">Blog</a>
             </li>
           </ul>
         </div>
