@@ -37,25 +37,28 @@ class App extends React.Component {
     });
 }
 
-  componentWillMount() {
-    let impact;
-    fetch('http://dev.impactrun.com/api/causesv2/',{
+  // componentDidMount() {
+   
+    
+  // }
+  componentDidMount(){
+
+    fetch('http://api.impactrun.com/app/v1/totalImpactStats',{
       method: "get"
     })
       .then((response) => response.json())
       .then((responseJson) => {
-       impact= Math.floor(responseJson.overall_impact)
+        console.log("Response",responseJson)
+       let impact= responseJson.response;
         this.setState({
-          Total_Impact: impact,
+          Total_Impact: impact.total_amount,
           loading: false
         })
       })
       .catch((error) => {
         console.error(error);
       });
-  }
-  componentDidMount(){
-    
+
     function scrollFunction() {
          document.getElementById("arrow-span").style.visibility = "hidden";   //To hide the element.
     }
